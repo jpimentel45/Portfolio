@@ -6,15 +6,7 @@ $(document).ready(function() {
   $("#aboutMe").show();
   //for phone add an on click event for .dropdown, and pust display:show for .dropdown-content
   $(".dropdown").click(function() {
-    if (dropdown === clicked) {
-      $(".dropdown-content").css({
-        display: "show"
-      });
-    } else {
-      $(".dropdown-content").css({
-        display: "show"
-      });
-    }
+    $(".dropdown-content").toggle();
   });
 
   var projects = [
