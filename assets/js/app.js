@@ -4,6 +4,13 @@ $(document).ready(function() {
   //once they select options on nav bar ".on click listener", show the appropriate container
   $(".container").hide();
   $("#aboutMe").show();
+  //for phone add an on click event for .dropdown, and pust display:show for .dropdown-content
+  $(".dropdown").click(function() {
+    $(".dropdown-content").css({
+      display: "show"
+    });
+  });
+
   var projects = [
     {
       link: "",
