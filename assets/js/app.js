@@ -3,10 +3,26 @@ $(document).ready(function() {
   //display a container containing welcome message or something cool
   //once they select options on nav bar ".on click listener", show the appropriate container
   $(".container").hide();
-  $("#aboutMe").show();
+  //$("#aboutMe").show();
   //for phone add an on click event for .dropdown, and pust display:show for .dropdown-content
   $(".dropdown").click(function() {
     $(".dropdown-content").toggle();
+  });
+  // add click event for .dropdown-content
+  // if #me clicked hide: $(".container").hide();, main page we'll implement later, and show: $("#aboutMe").show();
+  $("#me").click(function() {
+    $(".container").hide();
+    show: $("#aboutMe").show();
+  });
+  // else if #port clicked hide: $(".container").hide();, main page we'll implement later, and show: $("#portfolio").show();
+  $("#port").click(function() {
+    $(".container").hide();
+    show: $("#portfolio").show();
+  });
+  // else if #contact clicked hide: $(".container").hide();, main page we'll implement later, and show: $("#contact").show();
+  $("#contact").click(function() {
+    $(".container").hide();
+    show: $("#cont").show();
   });
 
   var projects = [

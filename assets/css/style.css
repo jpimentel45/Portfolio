@@ -64,7 +64,7 @@ img {
     height: auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     [class*="col-"] {
         float: none;
     }
@@ -125,11 +125,17 @@ img {
     .container {
         width: -webkit-fill-available;
         height: 500px;
-        margin-left: 66PX;
+        margin-right: 33PX;
+        margin-left: 112PX;
+        /* margin-right: 66PX;
+        margin-left: 66PX; */
     }
     .col-3 {
         width: 25%;
         padding-right: 15px;
+    }
+    .col-6 {
+        width: 60%;
     }
 }
 
