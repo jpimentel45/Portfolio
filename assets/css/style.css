@@ -8,258 +8,317 @@
 /*width=percentage & height="auto", the img = responsive & scale up/down */
 
 [class*="col-"] {
-    float: left;
+  float: left;
 }
 
 .col-1 {
-    width: 8.33%;
+  width: 8.33%;
 }
 
 .col-2 {
-    width: 16.66%;
+  width: 16.66%;
 }
 
 .col-3 {
-    width: 25%;
+  width: 25%;
 }
 
 .col-4 {
-    width: 33.33%;
+  width: 33.33%;
 }
 
 .col-5 {
-    width: 41.66%;
+  width: 41.66%;
 }
 
 .col-6 {
-    width: 50%;
+  width: 50%;
 }
 
 .col-7 {
-    width: 58.33%;
+  width: 58.33%;
 }
 
 .col-8 {
-    width: 66.66%;
+  width: 66.66%;
 }
 
 .col-9 {
-    width: 75%;
+  width: 75%;
 }
 
 .col-10 {
-    width: 83.33%;
+  width: 83.33%;
 }
 
 .col-11 {
-    width: 91.66%;
+  width: 91.66%;
 }
 
 .col-12 {
-    width: 100%;
+  width: 100%;
 }
 
 img {
-    width: 100%;
-    height: auto;
-}
-
-@media screen and (max-width: 767px) {
-    [class*="col-"] {
-        float: none;
-    }
-    .col-1 {
-        width: 8.33%;
-    }
-    .col-2 {
-        width: 16.66%;
-    }
-    .col-3 {
-        width: 64%;
-    }
-    .col-4 {
-        width: 33.33%;
-    }
-    .col-5 {
-        width: 41.66%;
-    }
-    .col-6 {
-        width: 75%;
-    }
-    .col-7 {
-        width: 58.33%;
-    }
-    .col-8 {
-        width: 66.66%;
-    }
-    .col-9 {
-        width: 75%;
-    }
-    .col-10 {
-        width: 83.33%;
-    }
-    .col-11 {
-        width: 91.66%;
-    }
-    .col-12 {
-        width: 100%;
-    }
-    .marg {
-        margin-left: 72px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .marg {
-        margin-left: 62px;
-    }
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 320px) {
-    .marg {
-        margin-left: 55px;
-    }
+  .marg {
+    margin-left: 55px;
+  }
+  .wrapper {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .marg {
+    margin-left: 62px;
+  }
+  .wrapper {
+    margin-left: 45px;
+  }
+}
+@media screen and (max-width: 767px) {
+  [class*="col-"] {
+    float: none;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 64%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 75%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .marg {
+    margin-left: 72px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: -webkit-fill-available;
-        height: 500px;
-        margin-right: 33PX;
-        margin-left: 112PX;
-        /* margin-right: 66PX;
+  .container {
+    width: -webkit-fill-available;
+    height: 500px;
+    margin-right: 33px;
+    margin-left: 112px;
+    /* margin-right: 66PX;
         margin-left: 66PX; */
-    }
-    .col-3 {
-        width: 25%;
-        padding-right: 15px;
-    }
-    .col-6 {
-        width: 60%;
-    }
+  }
+  .col-3 {
+    width: 25%;
+    padding-right: 15px;
+  }
+  .col-6 {
+    width: 60%;
+  }
+  .wrapper {
+    margin-left: auto;
+  }
+  #portfolio {
+    margin-left: 48px;
+  }
 }
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+}
 
-@media screen and (min-width: 2560px) {}
+@media screen and (min-width: 2560px) {
+}
 
 /* The [container <div> - needed to position the dropdown content */
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    max-width: 100%;
-    margin-left: 23vw;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  margin-left: 23vw;
 }
 
 /* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-size: 30%;
-    background: linear-gradient(90deg, rgb(255, 2, 2), rgb(248, 164, 7), gold, rgb(32, 255, 2), rgb(23, 7, 248), rgb(255, 6, 255));
-    max-width: 100%;
-    width: 100%;
-    text-align: center;
-    box-shadow: 63px 40px 20px 14px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-size: 30%;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 2, 2),
+    rgb(248, 164, 7),
+    gold,
+    rgb(32, 255, 2),
+    rgb(23, 7, 248),
+    rgb(255, 6, 255)
+  );
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  box-shadow: 63px 40px 20px 14px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 #me {
-    background-image: url("../images/juanito.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation: animate 4s linear infinite;
-    animation-direction: alternate-reverse;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-image: url("../images/juanito.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: animate 4s linear infinite;
+  animation-direction: alternate-reverse;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @keyframes animate {
-    0% {
-        background-position: 100%;
-    }
-    100% {
-        background-position: 0%;
-    }
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
 }
 
 #port {
-    background-image: url("../images/launch.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation: launch 9s linear infinite;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-image: url("../images/launch.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: launch 9s linear infinite;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @keyframes launch {
-    0% {
-        background-position: 50%;
-    }
-    25% {
-        background-position: 100%;
-    }
-    75% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 50%;
-    }
+  0% {
+    background-position: 50%;
+  }
+  25% {
+    background-position: 100%;
+  }
+  75% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 50%;
+  }
 }
 
 #contact {
-    background-image: url("../images/contact.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation: takeMe 5s linear infinite;
-    animation-direction: alternate-reverse;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-image: url("../images/contact.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: takeMe 5s linear infinite;
+  animation-direction: alternate-reverse;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @keyframes takeMe {
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 100%;
-    }
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
 
 /* Links inside the dropdown */
 
 .dropdown-content a {
-    color: black;
-    text-decoration: none;
-    display: block;
+  color: black;
+  text-decoration: none;
+  display: block;
 }
 
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 /* Show the dropdown menu on hover */
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 #pimp {
-    font-size: 5vw;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    text-shadow: 1px 1px 2px rgb(255, 2, 2), 0 0 25px rgb(248, 164, 7), 0 0 5px gold, rgb(32, 255, 2), 2px 2px 4px rgb(23, 7, 248), 2 2 50px rgb(255, 6, 255);
+  font-size: 5vw;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-shadow: 1px 1px 2px rgb(255, 2, 2), 0 0 25px rgb(248, 164, 7),
+    0 0 5px gold, rgb(32, 255, 2), 2px 2px 4px rgb(23, 7, 248),
+    2 2 50px rgb(255, 6, 255);
 }
 
 /*my img styling fot aboutMe*/
 
 #float {
-    padding-right: 20px;
+  padding-right: 20px;
+}
+
+/*css for portfolio*/
+.wrapper {
+  /* align-content: center; */
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 0 auto;
+  margin-left: 67px;
+  /* width: 510px; */
+}
+#portImg {
+  height: -webkit-fill-available;
+}
+#txt {
+  position: absolute;
+  margin-top: 66px;
+  margin-left: 30px;
+  color: white;
+}
+a {
+  display: block;
+  height: 100px;
+  margin: 10px;
+  width: 150px;
+}
+/* a img {
+  transform: scale(0.5) translate(-50%, -50%);
+  transition: all 200ms;
+} */
+
+/*styling for contact*/
+#cont {
+  margin-left: 78px;
+  width: 100%;
 }

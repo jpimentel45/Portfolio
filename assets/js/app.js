@@ -3,7 +3,6 @@ $(document).ready(function() {
   //display a container containing welcome message or something cool
   //once they select options on nav bar ".on click listener", show the appropriate container
   $(".container").hide();
-  //$("#aboutMe").show();
   //for phone add an on click event for .dropdown, and pust display:show for .dropdown-content
   $(".dropdown").click(function() {
     $(".dropdown-content").toggle();
@@ -27,47 +26,43 @@ $(document).ready(function() {
 
   var projects = [
     {
-      link: "",
-      img: "",
-      text: "Project 1"
+      link: "https://jpimentel45.github.io/Giftastic/",
+      img: "assets/images/flag.gif",
+      text: "Giftastic"
     },
     {
-      link: "ucla los angeles, ca ",
-      img: "",
-      text: "UCLA"
+      link: "https://jpimentel45.github.io/TrainSchedule/train",
+      img: "assets/images/juanito.jpg",
+      text: "Train Schedule"
     },
     {
-      link: "100 Universal City Plaza, Universal City, CA 91608",
-      img: "",
-      text: "Studio City"
-    },
-    {
-      link: "200 Santa Monica Pier, Santa Monica, CA 90401",
-      img: "",
-      text: "Santa Monica"
-    },
-    {
-      link: "6925 Hollywood Blvd, Hollywood, CA 90028",
-      img: "",
-      text: "Hollywood"
-    },
-    {
-      link: "3835 Cross Creek Rd, Malibu, CA 90265",
-      img: "",
-      text: "Malibu"
-    },
-    {
-      link: "231 S Grevillea Ave, Inglewood, CA 90301",
-      img: "",
-      text: "Inglewood"
-    },
-    {
-      link: "7850 Melrose Ave, Los Angeles, CA 90046",
-      img: "",
-      text: "Fairfax"
+      link: "https://jpimentel45.github.io/TriviaGame/",
+      img: "assets/images/juanito.jpg",
+      text: "Trivia Game"
     }
   ];
-
-  //code for aboutMe
-  //create a div containing your image, and paragraph description about yourself
+  var port = '<div class="wrapper">';
+  $("#portfolio").html(port);
+  function createProject() {
+    $(".wrapper").empty();
+    //create array to hold start <option> tags
+    var newProjects = [];
+    for (var i = 0; i < projects.length; i++) {
+      var newOption = $("<a>");
+      var img = $("<img src='' id='portImg'>");
+      img.attr("src", projects[i].img);
+      var text = $('<p id="txt">');
+      text.text(projects[i].text);
+      newOption.attr("href", projects[i].link); // add [i] here to index element
+      // newOption.text(projects[i].text); // add [i] here to index element
+      newOption.append(text);
+      newOption.append(img);
+      newProjects.push(newOption); // add new option to the array
+    }
+    //appending=expensive, keep array of elements and then use .html to add array to <select>
+    $(".wrapper").html(newProjects); // once loop is complete, add the array of elements to the DOM
+  }
+  createProject();
+  //code for portfolio
+  //create a div containing image, link, and description about project
 });
