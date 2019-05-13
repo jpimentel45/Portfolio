@@ -69,7 +69,11 @@ img {
     margin-left: 55px;
   }
   .wrapper {
-    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0 auto;
+    width: min-content;
   }
 }
 
@@ -77,10 +81,38 @@ img {
   .marg {
     margin-left: 62px;
   }
-  .wrapper {
-    margin-left: 45px;
+  #aboutMe {
+    margin-left: -4px;
+    margin-right: 20px;
   }
 }
+@media screen and (min-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0 auto;
+    /* margin-left: 67px; */
+    width: -webkit-fill-available;
+  }
+}
+/*iPhone 6,7,8 Plus*/
+@media screen and (width: 414px) {
+  .wrapper {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  #pimp {
+    font-size: 9.7578vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  #aboutMe {
+    margin-left: 2px;
+    margin-right: 13px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   [class*="col-"] {
     float: none;
@@ -130,10 +162,8 @@ img {
   .container {
     width: -webkit-fill-available;
     height: 500px;
-    margin-right: 33px;
-    margin-left: 112px;
-    /* margin-right: 66PX;
-        margin-left: 66PX; */
+    margin-right: 157px;
+    margin-left: 138px;
   }
   .col-3 {
     width: 25%;
@@ -143,14 +173,58 @@ img {
     width: 60%;
   }
   .wrapper {
-    margin-left: auto;
+    margin-left: inherit;
   }
   #portfolio {
-    margin-left: 48px;
+    margin-left: 61px;
+    margin-right: 68px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin-left: 18vw;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 2, 2),
+      rgb(248, 164, 7),
+      gold,
+      rgb(32, 255, 2),
+      rgb(23, 7, 248),
+      rgb(255, 6, 255)
+    );
+    background-size: 80%;
+    animation: rain 8s linear infinite;
+  }
+  #pimp {
+    font-size: 6vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 }
-
+@media screen and (min-width: 1024px) {
+  .container {
+    width: -webkit-fill-available;
+    height: 500px;
+    margin-right: 210px;
+    margin-left: 183px;
+  }
+  .wrapper {
+    margin-left: 190px;
+    margin-right: 180px;
+  }
+}
 @media screen and (min-width: 1440px) {
+  .container {
+    width: -webkit-fill-available;
+    height: 500px;
+    margin-right: 295px;
+    margin-left: 257px;
+  }
+  .wrapper {
+    margin-left: 396px;
+    margin-right: 390px;
+  }
 }
 
 @media screen and (min-width: 2560px) {
@@ -162,9 +236,27 @@ img {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  margin-left: 23vw;
+  margin-left: 18vw;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 2, 2),
+    rgb(248, 164, 7),
+    gold,
+    rgb(32, 255, 2),
+    rgb(23, 7, 248),
+    rgb(255, 6, 255)
+  );
+  background-size: 80%;
+  animation: rain 8s linear infinite;
 }
-
+@keyframes rain {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
 /* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
@@ -273,7 +365,7 @@ img {
 }
 
 #pimp {
-  font-size: 5vw;
+  font-size: 6vw;
   margin-bottom: 0px;
   margin-top: 0px;
   text-shadow: 1px 1px 2px rgb(255, 2, 2), 0 0 25px rgb(248, 164, 7),
@@ -293,9 +385,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
-  margin: 0 auto;
-  margin-left: 67px;
-  /* width: 510px; */
+  /* margin: 0 auto; */
+  /* margin-left: 67px; */
+  /* width: 0 auto; */
 }
 #portImg {
   height: -webkit-fill-available;
@@ -321,4 +413,14 @@ a {
 #cont {
   margin-left: 78px;
   width: 100%;
+}
+#aboutMe {
+  margin-top: 30px;
+}
+@media screen and (min-width: 1046px) {
+  #welcome,
+  #aboutMe {
+    margin-top: 30px;
+    margin-left: 242px;
+  }
 }
