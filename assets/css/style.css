@@ -83,6 +83,32 @@ img {
   height: auto;
 }
 
+.text {
+  text-align: center;
+  /* color: #fff; */
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: 5; /*infinite causes all animation to increase speed*/
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
 /*iPhone 6,7,8 Plus*/
 @media screen and (width: 414px) {
   #pimp {
