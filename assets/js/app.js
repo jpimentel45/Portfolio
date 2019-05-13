@@ -9,6 +9,11 @@ $(document).ready(function() {
     $(".dropdown-content").toggle();
   });
   // add click event for .dropdown-content
+  //click for #wel
+  $("#wel").click(function() {
+    $(".container").hide();
+    show: $("#welcome").show();
+  });
   // if #me clicked hide: $(".container").hide();, main page we'll implement later, and show: $("#aboutMe").show();
   $("#me").click(function() {
     $(".container").hide();
