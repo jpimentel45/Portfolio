@@ -74,34 +74,15 @@ body {
   width: 100%;
 }
 
+/*styling for about me*/
+#fart {
+  font-size: 3vw;
+}
 img {
   width: 100%;
   height: auto;
 }
 
-@media screen and (max-width: 320px) {
-  .marg {
-    margin-left: 55px;
-  }
-  .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    margin: 0 auto;
-    width: min-content;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    margin: 0 auto;
-    margin-left: 16px;
-    width: -webkit-fill-available;
-  }
-}
 /*iPhone 6,7,8 Plus*/
 @media screen and (width: 414px) {
   #pimp {
@@ -127,7 +108,7 @@ img {
     animation: rain 8s linear infinite;
   }
   .wrapper {
-    margin-left: 35px;
+    margin-left: 37px;
     margin-right: 15px;
   }
   #pimp {
@@ -190,6 +171,9 @@ img {
     margin-bottom: 0px;
     margin-top: 0px;
   }
+  #fart {
+    font-size: 5vw;
+  }
 }
 @media screen and (max-width: 375px) {
   .marg {
@@ -200,7 +184,28 @@ img {
     margin-left: -4px;
     margin-right: 20px;
   }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 16px;
+    width: -webkit-fill-available;
+  }
 }
+@media screen and (max-width: 320px) {
+  .marg {
+    margin-left: 55px;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0 auto;
+    width: min-content;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     width: -webkit-fill-available;
@@ -441,7 +446,7 @@ img {
 }
 a {
   display: block;
-  height: 115px;
+  height: 120px;
   max-height: 100%;
   max-width: 100%;
   margin: 10px;
@@ -470,9 +475,4 @@ a {
     margin-top: 30px;
     margin-left: 242px;
   }
-}
-
-/*styling for about me*/
-#fart {
-  font-size: 3vw;
 }
