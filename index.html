@@ -6,7 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="assets/js/app.js"></script>
         <link rel="stylesheet" type="text/css" media="screen"
             href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" media="screen"
@@ -23,6 +22,7 @@
                 <p class="dropAns" id="wel">Welcome</p>
                 <p class="dropAns" id="me">About Me</p>
                 <p class="dropAns" id="port">Portfolio</p>
+                <p class="dropAns" id="yubby">Youtube</p>
                 <p class="dropAns" id="contact">Contact</p>
             </div>
         </nav>
@@ -36,6 +36,14 @@
                 <li>Phone: Just tap to toggle dropdown</li>
 
             </ul>
+        </div>
+        <div class="container" id="tubez">
+
+            <div id="video"></div>
+
+            <main>
+
+            </main>
         </div>
         <div class="container" id="aboutMe">
             <div class="col-3 marg">
@@ -137,10 +145,10 @@
                         </form>
 
                         <div class="text-center text-md-left">
-                            <a class="btn btn-primary"
-                                onclick="document.getElementById('contact-form').submit();">Send</a>
+                            <!-- instead of directly submitting the form will call our validation function-->
+                            <a class="btn btn-primary" onclick="validateForm()">Send</a>
                         </div>
-                        <div class="status"></div>
+                        <div class="status" id="status"></div>
                     </div>
                     <!--Grid column-->
 
@@ -150,5 +158,6 @@
             </section>
             <!--Section: Contact v.2-->
         </div>
+        <script src="assets/js/app.js"></script>
     </body>
 </html>
