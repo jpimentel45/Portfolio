@@ -34,7 +34,7 @@ $(document).ready(function() {
     {
       link: "https://jpimentel45.github.io/Giftastic/",
       img: "assets/images/flag.gif",
-      text: "Giftastic"
+      text: "   Giftastic"
     },
     {
       link: "https://jpimentel45.github.io/TrainSchedule/train",
