@@ -109,6 +109,12 @@ img {
   animation-duration: 1s;
 }
 
+/*styling for contact*/
+#cont {
+  margin-left: 12px;
+  width: -webkit-fill-available;
+}
+
 /*iPhone 6,7,8 Plus*/
 @media screen and (width: 414px) {
   #pimp {
@@ -145,6 +151,11 @@ img {
   #aboutMe {
     margin-left: 2px;
     margin-right: 13px;
+  }
+  #cont {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: -webkit-fill-available;
   }
 }
 
@@ -231,13 +242,22 @@ img {
     width: min-content;
   }
 }
+@media screen and (min-width: 425px) {
+  #portfolio {
+    /* margin: 0 auto; */
+    max-width: max-content;
+    /* margin-left: 10px; */
+    margin-left: 41px;
+    margin-right: 43px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .container {
     width: -webkit-fill-available;
     height: 500px;
-    margin-right: 157px;
-    margin-left: 138px;
+    margin-left: 74px;
+    margin-right: 84px;
   }
   .col-3 {
     width: 25%;
@@ -246,12 +266,12 @@ img {
   .col-6 {
     width: 70%;
   }
-  .wrapper {
+  /* .wrapper {
     margin-left: inherit;
-  }
+  } */
   #portfolio {
-    margin-left: 61px;
-    margin-right: 68px;
+    margin-left: 74px;
+    margin-right: 84px;
   }
   .dropdown {
     position: relative;
@@ -274,6 +294,11 @@ img {
     font-size: 6vw;
     margin-bottom: 0px;
     margin-top: 0px;
+  }
+  #cont {
+    margin-left: 74px;
+    margin-right: 84px;
+    width: -webkit-fill-available;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -484,16 +509,17 @@ a {
 } */
 
 /*styling for contact*/
-#cont {
+/* #cont {
   margin-left: 78px;
   width: 100%;
-}
+} */
+
 #aboutMe {
   margin-top: 30px;
 }
 #welcome {
   margin-left: 74px;
-  margin-right: 84px;
+  margin-right: 74px;
 }
 @media screen and (min-width: 1046px) {
   #welcome,
