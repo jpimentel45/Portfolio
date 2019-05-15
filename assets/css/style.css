@@ -655,23 +655,13 @@ form .submit:hover {
     margin-left: 19px;
     margin-right: 17px;
   }
-}
-@media screen and (min-width: 1024px) {
-  .container {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    margin-right: 168px;
-    margin-left: 185px;
-  }
-  .dropdown-content {
-    margin-left: 31px;
-    margin-right: 27px;
-  }
   .dropdown {
     position: relative;
     display: inline-block;
     max-width: 100%;
-    margin-left: 9vw;
+    margin-left: 5vw;
+    width: 688px;
+    text-align: center;
     background: linear-gradient(
       90deg,
       rgb(255, 2, 2),
@@ -688,6 +678,43 @@ form .submit:hover {
   }
   #pimp {
     font-size: 8vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin-right: 168px;
+    margin-left: 185px;
+  }
+  .dropdown-content {
+    margin-left: 31px;
+    margin-right: 27px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    width: 1081px;
+    margin-left: 9vw;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 2, 2),
+      rgb(248, 164, 7),
+      gold,
+      rgb(32, 255, 2),
+      rgb(23, 7, 248),
+      rgb(255, 6, 255)
+    );
+    background-size: 80%;
+    animation: rain 8s linear infinite;
+    /* border-radius: 50px 50px 50px 50px; */
+    border-radius: 0px 0px 9px 9px;
+  }
+  #pimp {
+    font-size: 7vw;
     margin-bottom: 0px;
     margin-top: 0px;
   }
