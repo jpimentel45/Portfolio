@@ -432,7 +432,7 @@ form .submit:hover {
 /*iPhone 6,7,8 Plus*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #pimp {
-    font-size: 252%;
+    /* font-size: 252%; */
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -440,7 +440,7 @@ form .submit:hover {
     position: relative;
     display: inline-block;
     max-width: 100%;
-    margin-left: 4vw;
+    margin-left: 6vw;
     background: linear-gradient(
       90deg,
       rgb(255, 2, 2),
@@ -532,7 +532,7 @@ form .submit:hover {
     margin-right: 28px;
   }
   #pimp {
-    font-size: 9vw;
+    font-size: 8.5vw;
     margin-bottom: 0px;
     margin-top: 0px;
   }
