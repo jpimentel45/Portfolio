@@ -99,7 +99,7 @@ $(document).ready(function() {
   }
   function mainVid(id) {
     $("#video").html(`
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen allowsInlineMediaPlayback="TRUE"></iframe>
   `);
   }
   function resultsLoop(data) {
