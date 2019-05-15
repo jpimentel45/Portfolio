@@ -578,7 +578,7 @@ form .submit:hover {
   iframe {
     margin-left: 24px;
     margin-right: 24px;
-    width: 366px;
+    width: 365px;
   }
   #aboutMe {
     margin-left: 35px;
@@ -660,12 +660,36 @@ form .submit:hover {
   .container {
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-    margin-right: 185px;
-    margin-left: 183px;
+    margin-right: 168px;
+    margin-left: 185px;
   }
   .dropdown-content {
     margin-left: 31px;
     margin-right: 27px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin-left: 9vw;
+    background: linear-gradient(
+      90deg,
+      rgb(255, 2, 2),
+      rgb(248, 164, 7),
+      gold,
+      rgb(32, 255, 2),
+      rgb(23, 7, 248),
+      rgb(255, 6, 255)
+    );
+    background-size: 80%;
+    animation: rain 8s linear infinite;
+    /* border-radius: 50px 50px 50px 50px; */
+    border-radius: 0px 0px 9px 9px;
+  }
+  #pimp {
+    font-size: 8vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 }
 @media screen and (min-width: 1440px) {
