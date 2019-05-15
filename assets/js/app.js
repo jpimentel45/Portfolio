@@ -104,25 +104,26 @@ $(document).ready(function() {
   }
   function resultsLoop(data) {
     $.each(data.items, function(i, item) {
+      //thumbnail
       var thumb = item.snippet.thumbnails.medium.url;
       var title = item.snippet.title;
+      //description
       var desc = item.snippet.description.substring(0, 100);
+      //store id of vid
       var vid = item.snippet.resourceId.videoId;
 
       $("main").append(`
         <article class="item" data-key="${vid}">
-
           <img src="${thumb}" alt="" class="thumb">
           <div class="details">
             <h4 class='tubs'>${title}</h4>
             <p class='tubs grey'>${desc}</p>
           </div>
-
         </article>
       `);
     });
   }
-  // CLICK EVENT
+  // CLICK EVENT on article will take data-key of article clicked pasted to {id} on iframe src
   $("main").on("click", "article", function() {
     var id = $(this).attr("data-key");
     mainVid(id);

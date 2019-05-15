@@ -452,6 +452,7 @@ form .submit:hover {
     );
     background-size: 80%;
     animation: rain 8s linear infinite;
+    height: 41px;
   }
   .wrapper {
     margin-left: 37px;
@@ -472,6 +473,7 @@ form .submit:hover {
     width: -webkit-fill-available;
   }
 }
+
 /*landscape*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .container {
@@ -495,7 +497,8 @@ form .submit:hover {
     width: 16.66%;
   }
   .col-3 {
-    width: 64%;
+    width: 84%;
+    margin-bottom: 20px;
   }
   .col-4 {
     width: 33.33%;
@@ -525,8 +528,8 @@ form .submit:hover {
     width: 100%;
   }
   .marg {
-    margin-left: 72px;
-    margin-right: 72px;
+    margin-left: 39px;
+    margin-right: 28px;
   }
   #pimp {
     font-size: 9vw;
@@ -571,14 +574,37 @@ form .submit:hover {
     width: -webkit-fill-available;
   }
 }
-@media screen and (max-width: 375px) {
-  .marg {
-    margin-left: 72px;
-    margin-right: 57px;
+@media screen and (width: 414px) {
+  iframe {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 366px;
   }
   #aboutMe {
-    margin-left: -4px;
-    margin-right: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  #float {
+    width: 300px;
+    padding-right: 20px;
+  }
+  .marg {
+    margin-left: 21px;
+    margin-right: 23px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .marg {
+    margin-left: 43px;
+    margin-right: 41px;
+  }
+  .col-3 {
+    width: 79%;
+    margin-bottom: 20px;
+  }
+  #aboutMe {
+    margin-left: -13px;
+    margin-right: -13px;
   }
   .wrapper {
     display: flex;
@@ -591,7 +617,8 @@ form .submit:hover {
 }
 @media screen and (max-width: 320px) {
   .marg {
-    margin-left: 55px;
+    margin-left: 51px;
+    margin-right: 45px;
   }
   .wrapper {
     display: flex;
@@ -599,6 +626,13 @@ form .submit:hover {
     height: 100%;
     margin: 0 auto;
     width: min-content;
+  }
+  .col-3 {
+    width: 72%;
+    margin-bottom: 20px;
+  }
+  .dropdown {
+    height: 36px;
   }
 }
 
@@ -614,7 +648,7 @@ form .submit:hover {
     padding-right: 15px;
   }
   .col-6 {
-    width: 70%;
+    width: 72%;
   }
 
   .dropdown-content {
