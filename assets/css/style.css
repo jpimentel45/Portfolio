@@ -32,53 +32,14 @@ body {
   float: left;
 }
 
-.col-1 {
-  width: 8.33%;
-}
-
-.col-2 {
-  width: 16.66%;
-}
-
 .col-3 {
   width: 25%;
-}
-
-.col-4 {
-  width: 33.33%;
-}
-
-.col-5 {
-  width: 41.66%;
 }
 
 .col-6 {
   width: 50%;
 }
 
-.col-7 {
-  width: 58.33%;
-}
-
-.col-8 {
-  width: 66.66%;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.33%;
-}
-
-.col-11 {
-  width: 91.66%;
-}
-
-.col-12 {
-  width: 100%;
-}
 /*Welcome Style*/
 #welcome {
   font-size: xx-large;
@@ -97,6 +58,8 @@ body {
   );
   -webkit-text-fill-color: aliceblue;
   -webkit-text-emphasis: circle;
+  border-radius: 2%;
+  margin: 30px 35px;
 }
 h1 {
   color: magenta;
@@ -361,7 +324,7 @@ img {
 /*my img styling fot aboutMe*/
 
 #float {
-  padding-right: 20px;
+  border-radius: 21%;
 }
 
 /*css for portfolio*/
@@ -412,6 +375,11 @@ img {
 
 #aboutMe {
   margin-top: 30px;
+}
+
+/*style for tubez*/
+#tubez {
+  margin: 30px 30px 0px;
 }
 
 /*styling for contact*/
@@ -484,10 +452,10 @@ form .submit:hover {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  #aboutMe {
+  /* #aboutMe {
     margin-left: 2px;
     margin-right: 13px;
-  }
+  } */
   #cont {
     margin-left: 30px;
     margin-right: 27px;
@@ -498,55 +466,23 @@ form .submit:hover {
 /*landscape*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .container {
-    margin-left: 111px;
-    margin-right: 104px;
+    margin: 30px 35px;
     align-content: center;
   }
   .marg {
-    margin-left: 91px;
-    margin-right: 72px;
+    margin: 29px;
   }
 }
 @media screen and (max-width: 767px) {
   [class*="col-"] {
     float: none;
   }
-  .col-1 {
-    width: 8.33%;
-  }
-  .col-2 {
-    width: 16.66%;
-  }
   .col-3 {
     width: 84%;
     margin-bottom: 20px;
   }
-  .col-4 {
-    width: 33.33%;
-  }
-  .col-5 {
-    width: 41.66%;
-  }
   .col-6 {
     width: fit-content;
-  }
-  .col-7 {
-    width: 58.33%;
-  }
-  .col-8 {
-    width: 66.66%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.33%;
-  }
-  .col-11 {
-    width: 91.66%;
-  }
-  .col-12 {
-    width: 100%;
   }
   .marg {
     margin-left: 39px;
@@ -596,18 +532,18 @@ form .submit:hover {
   }
 }
 @media screen and (width: 414px) {
-  iframe {
+  /* iframe {
     margin-left: 24px;
     margin-right: 24px;
     width: 365px;
-  }
+  } */
   #aboutMe {
     margin-left: 35px;
     margin-right: 35px;
   }
-  #float {
-    width: 300px;
-    padding-right: 20px;
+  #show,
+  #hide {
+    width: 155px;
   }
   .marg {
     margin-left: 21px;
@@ -711,6 +647,13 @@ form .submit:hover {
     font-size: 8vw;
     margin-bottom: 0px;
     margin-top: 0px;
+  }
+  #welcome {
+    margin: 30px 185px;
+    border-radius: 3% 3% 3% 3%;
+  }
+  #tubez {
+    margin: 30px 205px;
   }
 }
 @media screen and (min-width: 1440px) {

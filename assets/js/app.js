@@ -1,41 +1,16 @@
 $(document).ready(function() {
-  //once app fully coded, and customized, hide all containers
-  //display a container containing welcome message or something cool
-  //once they select options on nav bar ".on click listener", show the appropriate container
   $(".container").hide();
-
   $("#welcome").show();
   //for phone add an on click event for .dropdown, and pust display:show for .dropdown-content
   $(".dropdown").click(function() {
     $(".dropdown-content").toggle();
   });
+  //click events for dropdown content
+  $(".dropdown-content").click(function(e) {
+    $(".container").hide();
+    show: $(`#${e.target.dataset.targetid}`).show();
+  });
 
-  // add click event for .dropdown-content
-  //click for #wel
-  $("#wel").click(function() {
-    $(".container").hide();
-    show: $("#welcome").show();
-  });
-  // if #me clicked hide: $(".container").hide();, main page we'll implement later, and show: $("#aboutMe").show();
-  $("#me").click(function() {
-    $(".container").hide();
-    show: $("#aboutMe").show();
-  });
-  // else if #port clicked hide: $(".container").hide();, main page we'll implement later, and show: $("#portfolio").show();
-  $("#port").click(function() {
-    $(".container").hide();
-    show: $("#portfolio").show();
-  });
-  //else if youtube clicked
-  $("#yubby").click(function() {
-    $(".container").hide();
-    show: $("#tubez").show();
-  });
-  // else if #contact clicked hide: $(".container").hide();, main page we'll implement later, and show: $("#contact").show();
-  $("#contact").click(function() {
-    $(".container").hide();
-    show: $("#cont").show();
-  });
   //code for portfolio
   var projects = [
     {
@@ -110,7 +85,10 @@ $(document).ready(function() {
   }
   createProject();
   //only toggles first pctures hide div not on others
-  $("#show").click(function() {
+
+  // Get the parent DIV, add click listener...
+  $("#show").on("click", function(e) {
+    $("#hide")[0].className = e.target.id;
     $("#hide").toggle();
   });
 
@@ -135,7 +113,7 @@ $(document).ready(function() {
   }
   function mainVid(id) {
     $("#video").html(`
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen allowsInlineMediaPlayback="TRUE"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   `);
   }
   function resultsLoop(data) {
