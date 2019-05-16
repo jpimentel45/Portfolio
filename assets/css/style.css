@@ -44,7 +44,7 @@ body {
 #welcome {
   font-size: xx-large;
   height: auto;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available; */
   text-align: center;
   /* margin-top: 30px; */
   font-family: "Modak", cursive;
@@ -342,12 +342,6 @@ img {
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
-#hide {
-  display: none;
-}
-#show:hover #hide {
-  display: block;
-}
 
 @-webkit-keyframes glow {
   from {
@@ -366,8 +360,8 @@ img {
   /* height: 100%; */
 }
 
-#show,
-#hide {
+.show,
+.hide {
   display: block;
   height: fit-content;
   max-height: 100%;
@@ -375,8 +369,11 @@ img {
   margin: 10px;
   width: 150px;
 }
-#hide {
+.hide {
   margin-left: 0;
+  display: none;
+}
+.show:hover .hide {
   display: block;
 }
 
@@ -548,8 +545,8 @@ form .submit:hover {
     margin-left: 35px;
     margin-right: 35px;
   }
-  #show,
-  #hide {
+  .show,
+  .hide {
     width: 155px;
   }
   .marg {

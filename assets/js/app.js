@@ -45,7 +45,7 @@ $(document).ready(function() {
     //create array to hold start <option> tags
     var newProjects = [];
     for (var i = 0; i < projects.length; i++) {
-      var projectDiv = $("<div id='show'>");
+      var projectDiv = $("<div class='show'>");
       var newOption = $("<a>");
       var img = $("<img src='' id='portImg'>");
       img.attr("src", projects[i].img);
@@ -63,7 +63,7 @@ $(document).ready(function() {
       //shown on hover, also add on click to toggle on js for phones
       //give each div their own id to be able to target ex div#imgDiv div#hiddenDiv
       //on media query for l phone remove .hide for div#hide and set to show
-      var hideDiv = $("<div id='hide'>");
+      var hideDiv = $("<div class='hide'>");
       //try this
 
       //hideDiv.append(text);
@@ -87,9 +87,9 @@ $(document).ready(function() {
   //only toggles first pctures hide div not on others
 
   // Get the parent DIV, add click listener...
-  $("#show").on("click", function(e) {
-    $("#hide")[0].className = e.target.id;
-    $("#hide").toggle();
+  $(".hide").hide();
+  $(".show").on("click", function(e) {
+    $(".hide").toggle();
   });
 
   //code for welcome
