@@ -44,8 +44,9 @@ body {
 #welcome {
   font-size: xx-large;
   height: auto;
+  height: -webkit-fill-available;
   text-align: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   font-family: "Modak", cursive;
   background: linear-gradient(
     360deg,
@@ -59,7 +60,7 @@ body {
   -webkit-text-fill-color: aliceblue;
   -webkit-text-emphasis: circle;
   border-radius: 2%;
-  margin: 30px 35px;
+  /* margin: 30px 35px; */
 }
 h1 {
   color: magenta;
@@ -340,6 +341,12 @@ img {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
+}
+#hide {
+  display: none;
+}
+#show:hover #hide {
+  display: block;
 }
 
 @-webkit-keyframes glow {
