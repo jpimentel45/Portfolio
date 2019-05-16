@@ -365,13 +365,15 @@ img {
 }
 
 /*css for portfolio*/
+#description,
 #txt {
-  position: absolute;
-  margin-top: 95px;
-  margin-left: 30px;
-  font-size: 15px;
-  color: #fff;
+  font-weight: bolder;
   text-align: center;
+  font-size: 15px;
+}
+#txt {
+  color: #fff;
+
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -393,17 +395,19 @@ img {
   flex-wrap: wrap;
   /* height: 100%; */
 }
-#portImg {
-  height: -webkit-fill-available;
-}
 
-a {
+#show,
+#hide {
   display: block;
-  height: 120px;
+  height: fit-content;
   max-height: 100%;
   max-width: 100%;
   margin: 10px;
   width: 150px;
+}
+#hide {
+  margin-left: 0;
+  display: block;
 }
 
 #aboutMe {
