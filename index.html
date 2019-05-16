@@ -73,7 +73,7 @@
         </div>
         <br>
         <div class="container" id="cont">
-            <div class="contact-form">
+            <!-- <div class="contact-form">
                 <form action="mail.php" id="contact-form" method="post">
                     <input name="name" type="text" class="form-control"
                         placeholder="Your Name" required>
@@ -88,8 +88,36 @@
                     <br>
                 </form>
                 <input type="submit" class="form-control" value="SEND MESSAGE">
-            </div>
+            </div> -->
+            <h3>Email Us</h3>
+            <div class="alert">Your message has been sent</div>
+            <form id="contactForm">
+                <p>
+                    <label>Name</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+                <p>
+                    <label>Company</label>
+                    <input type="text" name="company" id="company">
+                </p>
+                <p>
+                    <label>Email Address</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label>Phone Number</label>
+                    <input type="text" name="phone" id="phone">
+                </p>
+                <p class="full">
+                    <label>Message</label>
+                    <textarea name="message" rows="5" id="message"></textarea>
+                </p>
+                <p class="full">
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
         </div>
+        <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
         <script src="assets/js/app.js"></script>
     </body>
 </html>
