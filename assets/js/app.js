@@ -39,18 +39,23 @@ $(document).ready(function() {
   var projects = [
     {
       link: "https://jpimentel45.github.io/Giftastic/",
-      img: "assets/images/flag.gif",
+      img: "assets/images/giftstic.png",
       text: "   Giftastic"
     },
     {
       link: "https://jpimentel45.github.io/TrainSchedule/train",
-      img: "assets/images/juanito.jpg",
+      img: "assets/images/train.png",
       text: "Train Schedule"
     },
     {
       link: "https://jpimentel45.github.io/TriviaGame/",
-      img: "assets/images/juanito.jpg",
+      img: "assets/images/trivia.png",
       text: "Trivia Game"
+    },
+    {
+      link: "https://jpimentel45.github.io/Psychic_Game/",
+      img: "assets/images/psychic.png",
+      text: "Psychic Game"
     }
   ];
   var port = '<div class="wrapper">';
