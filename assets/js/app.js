@@ -14,28 +14,46 @@ $(document).ready(function() {
   //code for portfolio
   var projects = [
     {
+      link: "https://krekorian.github.io/LAsafeParking/login.html",
+      img: "assets/images/safe.png",
+      text: "SafeStay",
+      description:
+        "Utilized  Google Maps Api, Firebase Realtime Database, Weather api",
+      git: "Github",
+      hub: "https://github.com/krekorian/LAsafeParking"
+    },
+    {
       link: "https://jpimentel45.github.io/Giftastic/",
       img: "assets/images/giftstic.png",
-      text: "   Giftastic",
-      description: "Blah Blah Blah"
+      text: "Giftastic",
+      description:
+        "Utilized Giphy Api to append gifs based on topics created by user",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/Giftastic"
     },
     {
       link: "https://jpimentel45.github.io/TrainSchedule/train",
       img: "assets/images/train.png",
       text: "Train Schedule",
-      description: "Blah Blah Blah"
+      description: "Utilized firebase to store, and append data to html",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/TrainSchedule"
     },
     {
       link: "https://jpimentel45.github.io/TriviaGame/",
       img: "assets/images/trivia.png",
       text: "Trivia Game",
-      description: "Blah Blah Blah"
+      description: "Random trivia question, with timer, and answer count",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/TriviaGame"
     },
     {
       link: "https://jpimentel45.github.io/Psychic_Game/",
       img: "assets/images/psychic.png",
       text: "Psychic Game",
-      description: "Blah Blah Blah"
+      description: "Simple guess game base on user keypress",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/Psychic_Game"
     }
   ];
   var port = '<div class="wrapper">';
@@ -55,26 +73,18 @@ $(document).ready(function() {
       desc.text(projects[i].description);
       newOption.attr("href", projects[i].link); // add [i] here to index element
       // newOption.text(projects[i].text); // add [i] here to index element
-      //create div for text, desc
-      // append text, desc to that div
-      //append to projectDiv after appending newOption, then just leave projectDiv
-      //to be pushed to newProjects
-      //css use simila to dropdown where txt,desc div is hidden
-      //shown on hover, also add on click to toggle on js for phones
-      //give each div their own id to be able to target ex div#imgDiv div#hiddenDiv
-      //on media query for l phone remove .hide for div#hide and set to show
       var hideDiv = $("<div class='hide'>");
-      //try this
-
-      //hideDiv.append(text);
-      // hideDiv.append(desc);
+      var git = $("<p id='txt'>");
+      git.text(projects[i].git);
+      var hub = $("<a>");
+      hub.attr("href", projects[i].hub);
+      hub.append(git);
       projectDiv.append(img);
       //newOption.append(img);
       newOption.append(text);
-      newOption.append(desc);
       hideDiv.append(newOption);
-      // newOption.append(text);
-      // newOption.append(desc);
+      hideDiv.append(desc);
+      hideDiv.append(hub);
       projectDiv.append(img);
       //projectDiv.append(newOption);
       projectDiv.append(hideDiv);
@@ -144,64 +154,4 @@ $(document).ready(function() {
   });
 
   //contact form
-  // Initialize Firebase (ADD YOUR OWN DATA)
-  var config = {
-    apiKey: "AIzaSyDvUNJYxex9F51NFRGlrjEVDUiPgAUN7xM",
-    authDomain: "juanitos-portfolio.firebaseapp.com",
-    databaseURL: "https://juanitos-portfolio.firebaseio.com",
-    projectId: "juanitos-portfolio",
-    storageBucket: "juanitos-portfolio.appspot.com",
-    messagingSenderId: "911587062246",
-    appId: "1:911587062246:web:7dc445839eb0e700"
-  };
-  firebase.initializeApp(config);
-
-  // Reference messages collection
-  var messagesRef = firebase.database().ref("messages");
-
-  // Listen for form submit
-  document.getElementById("contactForm").addEventListener("submit", submitForm);
-
-  // Submit form
-  function submitForm(e) {
-    e.preventDefault();
-
-    // Get values
-    var name = getInputVal("name");
-    var company = getInputVal("company");
-    var email = getInputVal("email");
-    var phone = getInputVal("phone");
-    var message = getInputVal("message");
-
-    // Save message
-    saveMessage(name, company, email, phone, message);
-
-    // Show alert
-    document.querySelector(".alert").style.display = "block";
-
-    // Hide alert after 3 seconds
-    setTimeout(function() {
-      document.querySelector(".alert").style.display = "none";
-    }, 3000);
-
-    // Clear form
-    document.getElementById("contactForm").reset();
-  }
-
-  // Function to get get form values
-  function getInputVal(id) {
-    return document.getElementById(id).value;
-  }
-
-  // Save message to firebase
-  function saveMessage(name, company, email, phone, message) {
-    var newMessageRef = messagesRef.push();
-    newMessageRef.set({
-      name: name,
-      company: company,
-      email: email,
-      phone: phone,
-      message: message
-    });
-  }
 });
