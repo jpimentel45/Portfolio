@@ -419,7 +419,7 @@ input {
     position: relative;
     display: inline-block;
     max-width: 100%;
-    margin-left: 4vw;
+    margin-left: 9vw;
     background: linear-gradient(
       90deg,
       rgb(255, 2, 2),
@@ -431,7 +431,7 @@ input {
     );
     background-size: 80%;
     animation: rain 8s linear infinite;
-    height: 41px;
+    height: 40px;
   }
   .wrapper {
     margin: 0px 42px;
@@ -478,7 +478,7 @@ input {
     margin-right: 28px;
   }
   #pimp {
-    font-size: 9vw;
+    font-size: 8vw;
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -576,6 +576,7 @@ input {
   }
   .dropdown {
     height: 36px;
+    margin-left: 9vw;
   }
 }
 
