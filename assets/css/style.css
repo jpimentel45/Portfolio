@@ -433,12 +433,6 @@ button {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-
-  #cont {
-    margin-left: 30px;
-    margin-right: 27px;
-    width: -webkit-fill-available;
-  }
 }
 
 /*landscape*/
@@ -496,11 +490,6 @@ button {
     text-align: center;
     box-shadow: 63px 40px 20px 14px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  #cont {
-    margin-left: 62px;
-    margin-right: 60px;
-    width: -webkit-fill-available;
   }
 }
 @media screen and (width: 414px) {
