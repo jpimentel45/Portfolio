@@ -343,9 +343,9 @@ img {
 #txt {
   color: #fff;
 
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; */
 }
 
 @-webkit-keyframes glow {
@@ -520,17 +520,17 @@ input {
     margin-right: 24px;
     width: 365px;
   } */
-  #aboutMe {
+  /* #aboutMe {
     margin-left: 35px;
     margin-right: 35px;
-  }
+  } */
   .show,
   .hide {
     width: 155px;
   }
   .marg {
-    margin-left: 21px;
-    margin-right: 23px;
+    margin-left: 33px;
+    margin-right: 33px;
   }
   .wrapper {
     margin: 0px 32px;
@@ -545,10 +545,10 @@ input {
     width: 79%;
     margin-bottom: 20px;
   }
-  #aboutMe {
+  /* #aboutMe {
     margin-left: -13px;
     margin-right: -13px;
-  }
+  } */
   .wrapper {
     display: flex;
     flex-wrap: wrap;

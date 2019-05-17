@@ -88,7 +88,7 @@ $(document).ready(function() {
 
   // Get the parent DIV, add click listener...
   $(".hide").hide();
-  $(".show").on("click mouseover", function(e) {
+  $(".show").on("click mouseleave", function(e) {
     $(".hide").toggle();
   });
 
