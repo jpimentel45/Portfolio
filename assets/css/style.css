@@ -80,7 +80,6 @@ iframe {
 .tubs {
   padding: 0;
   margin: 0;
-  line-height: 1.3;
   font-weight: 600;
 }
 .grey {
@@ -95,7 +94,8 @@ iframe {
   );
   background-repeat: no-repeat;
   background-size: 100%;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  line-height: 1.2;
 }
 main {
   background-color: magenta;
@@ -317,7 +317,7 @@ img {
 #pimp {
   font-weight: 600;
   padding: 5px;
-  font-size: 7vw;
+  font-size: 6.8vw;
   margin-bottom: 0px;
   margin-top: 0px;
 }
