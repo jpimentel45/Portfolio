@@ -19,6 +19,7 @@ body {
 }
 
 .col-3 {
+  margin: 0 auto;
   width: 25%;
 }
 
@@ -428,10 +429,6 @@ button {
   .col-6 {
     width: fit-content;
   }
-  .marg {
-    margin-left: 39px;
-    margin-right: 28px;
-  }
   #fart {
     font-size: 5vw;
   }
@@ -463,37 +460,6 @@ button {
   }
   #cont {
     margin: 0px 30px;
-  }
-}
-@media screen and (width: 414px) {
-  .show,
-  .hide {
-    width: 155px;
-  }
-
-  .marg {
-    margin-left: 33px;
-    margin-right: 33px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .marg {
-    margin-left: 43px;
-    margin-right: 41px;
-  }
-  .col-3 {
-    width: 79%;
-    margin-bottom: 20px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .marg {
-    margin-left: 51px;
-    margin-right: 45px;
-  }
-  .col-3 {
-    width: 72%;
-    margin-bottom: 20px;
   }
 }
 
