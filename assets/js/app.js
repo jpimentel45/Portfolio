@@ -60,19 +60,18 @@ $(document).ready(function() {
   $("#portfolio").html(port);
   function createProject() {
     $(".wrapper").empty();
-    //create array to hold start <option> tags
+    //create array to hold start div tags
     var newProjects = [];
     for (var i = 0; i < projects.length; i++) {
       var projectDiv = $("<div class='show'>");
       var newOption = $("<a>");
+      newOption.attr("href", projects[i].link); // add [i] here to index element
       var img = $("<img src='' id='portImg'>");
       img.attr("src", projects[i].img);
       var text = $('<p id="txt">');
       text.text(projects[i].text);
       var desc = $("<p id = 'description'>");
       desc.text(projects[i].description);
-      newOption.attr("href", projects[i].link); // add [i] here to index element
-      // newOption.text(projects[i].text); // add [i] here to index element
       var hideDiv = $("<div class='hide'>");
       var git = $("<p id='txt'>");
       git.text(projects[i].git);
@@ -80,21 +79,17 @@ $(document).ready(function() {
       hub.attr("href", projects[i].hub);
       hub.append(git);
       projectDiv.append(img);
-      //newOption.append(img);
       newOption.append(text);
       hideDiv.append(newOption);
       hideDiv.append(desc);
       hideDiv.append(hub);
       projectDiv.append(img);
-      //projectDiv.append(newOption);
       projectDiv.append(hideDiv);
       newProjects.push(projectDiv); // add new option to the array
     }
-    //appending=expensive, keep array of elements and then use .html to add array to <select>
     $(".wrapper").html(newProjects); // once loop is complete, add the array of elements to the DOM
   }
   createProject();
-  //only toggles first pctures hide div not on others
 
   // Get the parent DIV, add click listener...
   $(".hide").hide();
@@ -102,7 +97,8 @@ $(document).ready(function() {
     $(".hide").toggle();
   });
 
-  //code for welcome
+  //code for yubez
+  //personal api key
   var key = "AIzaSyBKWuAXHLyKPwd7Hi-UrN_tN2pK-Da_suQ";
   var playlistId = "PLvDeMMtitSeveZ0CgBKZR9quXkKfukoHm";
   var URL = "https://www.googleapis.com/youtube/v3/playlistItems";
@@ -154,4 +150,43 @@ $(document).ready(function() {
   });
 
   //contact form
+  var contact = [
+    {
+      link: "https://github.com/jpimentel45",
+      id: "github"
+    },
+    {
+      link: "https://www.linkedin.com/in/1ito/",
+      id: "in"
+    },
+    {
+      link:
+        "https://drive.google.com/file/d/1nhKmPkZxP72VWy3KJN7LiQRd8SdNvVth/view?usp=sharing",
+      id: "ressy"
+    },
+    {
+      link: "tel:3235924139",
+      id: "cell"
+    },
+    {
+      link: "mailto:jpimentel45@gmail.com",
+      id: "mail"
+    }
+  ];
+  function createButtons() {
+    //prevent duplicate buttons
+    $("#cont").empty();
+    for (var i = 0; i < contact.length; i++) {
+      //new element for button to be created
+      var a = $("<a href=''>");
+      a.attr("href", contact[i].link);
+      var newButton = $("<button>");
+      a.append(newButton);
+      //give button id of contact
+      newButton.attr("id", contact[i].id);
+      $("#cont").append(a);
+    }
+  }
+
+  createButtons();
 });

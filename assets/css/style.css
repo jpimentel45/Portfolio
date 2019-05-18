@@ -1,19 +1,5 @@
 html {
-  background: linear-gradient(
-    90deg,
-    rgb(255, 2, 2),
-    rgb(248, 164, 7),
-    gold,
-    rgb(32, 255, 2),
-    rgb(23, 7, 248),
-    rgb(255, 6, 255),
-    rgb(255, 2, 2),
-    rgb(248, 164, 7),
-    gold,
-    rgb(32, 255, 2),
-    rgb(23, 7, 248),
-    rgb(255, 6, 255)
-  );
+  background-color: black;
 }
 body {
   background-image: url("../images/ghost.gif");
@@ -37,10 +23,12 @@ body {
 }
 
 .col-6 {
+  line-height: 1.5;
+  padding: 10px;
   width: 50%;
-  background-color: black;
-  color: aliceblue;
-  opacity: 0.8;
+  background-color: orange;
+  color: black;
+  opacity: 0.9;
   border-radius: 2%;
   text-align: center;
 }
@@ -54,7 +42,7 @@ body {
   /* margin-top: 30px; */
   font-family: "Modak", cursive;
   background: linear-gradient(
-    360deg,
+    180deg,
     rgb(255, 2, 2),
     rgb(248, 164, 7),
     gold,
@@ -115,6 +103,7 @@ main {
   padding: 18px 10px;
 }
 article {
+  padding: 3px;
   display: flex;
   align-items: center;
 }
@@ -155,6 +144,8 @@ img {
 /*style for dropdown*/
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
   display: none;
   position: absolute;
   background-size: 30%;
@@ -180,6 +171,7 @@ img {
 /* The [container <div> - needed to position the dropdown content */
 
 .dropdown {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   position: relative;
   /* display: inline-block; */
@@ -194,7 +186,7 @@ img {
     rgb(23, 7, 248),
     rgb(255, 6, 255)
   );
-  background-size: 80%;
+  background-size: 85%;
   animation: rain 8s linear infinite;
   /* border-radius: 50px 50px 50px 50px; */
   border-radius: 0px 0px 9px 9px;
@@ -323,7 +315,9 @@ img {
 }
 /*for name on navbar*/
 #pimp {
-  font-size: 8vw;
+  font-weight: 600;
+  padding: 5px;
+  font-size: 7vw;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -343,7 +337,7 @@ img {
 }
 #txt {
   padding: 8px 0px;
-  color: #20f309;
+  color: mediumspringgreen;
 }
 
 .wrapper,
@@ -352,6 +346,7 @@ img {
   flex-wrap: wrap;
   height: fit-content;
   place-content: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .show,
@@ -363,12 +358,14 @@ img {
 }
 .hide {
   margin-left: 0;
-  background-color: black;
-  opacity: 0.8;
-  color: orangered;
+  background-color: mediumslateblue;
+  opacity: 0.9;
+  color: black;
   border-radius: 5px;
 }
 #aboutMe {
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
   margin-top: 30px;
 }
 button {
@@ -380,7 +377,8 @@ button {
 }
 /*style for tubez*/
 #tubez {
-  margin: 30px 30px 0px;
+  margin: 0px 30px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*styling for contact*/
@@ -545,17 +543,12 @@ button {
     padding-right: 15px;
   }
   .col-6 {
-    width: 72%;
+    width: 69%;
   }
 
   .dropdown-content {
     margin-left: 19px;
     margin-right: 17px;
-  }
-  #pimp {
-    font-size: 7vw;
-    margin-bottom: 0px;
-    margin-top: 0px;
   }
 }
 @media screen and (min-width: 1024px) {
