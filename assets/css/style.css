@@ -323,7 +323,7 @@ img {
 }
 /*for name on navbar*/
 #pimp {
-  font-size: 9vw;
+  font-size: 8vw;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -342,6 +342,7 @@ img {
   font-size: 15px;
 }
 #txt {
+  padding: 8px 0px;
   color: #20f309;
 }
 
@@ -419,19 +420,8 @@ button {
 
 /*iPhone 6,7,8 Plus*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  #pimp {
-    font-size: 252%;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-
   .wrapper {
     margin: 0px 42px;
-  }
-  #pimp {
-    font-size: 9.7578vw;
-    margin-bottom: 0px;
-    margin-top: 0px;
   }
 }
 
@@ -460,11 +450,6 @@ button {
     margin-left: 39px;
     margin-right: 28px;
   }
-  #pimp {
-    font-size: 9vw;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
   #fart {
     font-size: 5vw;
   }
@@ -490,6 +475,12 @@ button {
     text-align: center;
     box-shadow: 63px 40px 20px 14px rgba(0, 0, 0, 0.2);
     z-index: 1;
+  }
+  .dropdown {
+    margin: 0px 20px;
+  }
+  #cont {
+    margin: 0px 30px;
   }
 }
 @media screen and (width: 414px) {
@@ -561,6 +552,11 @@ button {
     margin-left: 19px;
     margin-right: 17px;
   }
+  #pimp {
+    font-size: 7vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .container {
@@ -574,11 +570,6 @@ button {
     margin-right: 27px;
   }
 
-  #pimp {
-    font-size: 8vw;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
   #welcome {
     margin: 30px 185px;
     border-radius: 3% 3% 3% 3%;
