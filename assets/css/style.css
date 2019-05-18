@@ -369,10 +369,11 @@ img {
   margin-top: 30px;
 }
 button {
+  border-radius: 50%;
   margin: 0px 8px 10px;
-  width: 80px;
+  width: 150px;
   max-width: 100%;
-  height: 80px;
+  height: 150px;
   padding: 15px;
 }
 /*style for tubez*/
@@ -416,23 +417,6 @@ button {
   text-align: center;
 }
 
-/*iPhone 6,7,8 Plus*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .wrapper {
-    margin: 0px 42px;
-  }
-}
-
-/*landscape*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .container {
-    margin: 30px 35px;
-    align-content: center;
-  }
-  .marg {
-    margin: 29px;
-  }
-}
 @media screen and (max-width: 767px) {
   [class*="col-"] {
     float: none;
@@ -491,9 +475,6 @@ button {
     margin-left: 33px;
     margin-right: 33px;
   }
-  .wrapper {
-    margin: 0px 32px;
-  }
 }
 @media screen and (max-width: 375px) {
   .marg {
@@ -504,26 +485,11 @@ button {
     width: 79%;
     margin-bottom: 20px;
   }
-  .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-
-    margin-left: 16px;
-    margin-right: 16px;
-  }
 }
 @media screen and (max-width: 320px) {
   .marg {
     margin-left: 51px;
     margin-right: 45px;
-  }
-  .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    margin: 0 auto;
-    width: min-content;
   }
   .col-3 {
     width: 72%;
