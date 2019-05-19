@@ -75,6 +75,7 @@ li {
 
 /*Yubbz style*/
 iframe {
+  margin: 0px 30px;
   width: -webkit-fill-available;
 }
 
@@ -99,6 +100,7 @@ iframe {
   line-height: 1.2;
 }
 main {
+  border-radius: 3%;
   background-color: magenta;
   opacity: 0.9;
   padding: 18px 10px;
@@ -367,7 +369,7 @@ img {
 #aboutMe {
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
-  margin-top: 30px;
+  margin-top: 65px;
 }
 button {
   border-radius: 50%;
@@ -379,8 +381,10 @@ button {
 }
 /*style for tubez*/
 #tubez {
-  margin: 0px 30px;
   font-family: "Open Sans", sans-serif;
+}
+.container {
+  margin-top: 44px;
 }
 
 /*styling for contact*/
@@ -453,13 +457,17 @@ button {
     border-radius: 2px 2px 9px 9px;
     text-align: center;
     box-shadow: 63px 40px 20px 14px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 2;
   }
   .dropdown {
-    margin: 0px 20px;
+    position: fixed;
+    width: 91vw;
+    max-width: 100%;
+    margin: 0px 18px auto;
+    z-index: 1;
   }
   #cont {
-    margin: 0px 30px;
+    margin: 45px 30px;
   }
 }
 
