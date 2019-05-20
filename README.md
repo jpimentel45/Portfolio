@@ -19,3 +19,6 @@ My portfolio has all been created on one HTML document, will a dropdown navbar, 
 *Email
 Portfolio Homepage: 
 ![Welcome page Screenshot](https://github.com/jpimentel45/Portfolio/blob/master/assets/images/port.png "Logo Title Text 1")
+## Learned:
+1. Event Delegation
+2. Template Literals
