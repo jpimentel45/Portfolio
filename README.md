@@ -7,3 +7,13 @@ My portfolio has all been created on one HTML document, will a dropdown navbar, 
 4. Vanilla Javascript
 5. Youtube API
 6. Google Fonts
+### Walk Through
+1. Nav bar is fixed to the top, as user scrolls
+2. Portfolio: user may tap to toggle container with description containing link to project, and to the GitHub repository
+3. User may also toggle the container on mouse leave
+4. Contact: contains buttons linked to:
+*GitHub
+*LinkedIn
+*Resume
+*Phone Number
+*Email
