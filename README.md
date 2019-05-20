@@ -18,4 +18,4 @@ My portfolio has all been created on one HTML document, will a dropdown navbar, 
 *Phone Number
 *Email
 Portfolio Homepage: 
-![Welcome page Screenshot](file:///C:/Users/Juanito/Pictures/Screenshots/port.png "Logo Title Text 1")
+![Welcome page Screenshot](https://drive.google.com/file/d/1ksk3wvwoaV8v_ho2PUsdzIp6ba_GAkmX/view?usp=sharing "Logo Title Text 1")
