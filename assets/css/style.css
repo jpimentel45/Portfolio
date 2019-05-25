@@ -1,10 +1,12 @@
 html {
   background-color: black;
 }
+
 body {
   background-image: url("../images/ghost.gif");
   background-size: contain;
 }
+
 /* div {
         width: 100%;
         height: 400px;
@@ -27,7 +29,7 @@ body {
   line-height: 1.5;
   padding: 10px;
   width: 50%;
-  background-color: orange;
+  background-color: #329d9c;
   color: black;
   opacity: 0.9;
   border-radius: 2%;
@@ -35,6 +37,7 @@ body {
 }
 
 /*Welcome Style*/
+
 #welcome {
   font-size: xx-large;
   height: auto;
@@ -42,20 +45,13 @@ body {
   text-align: center;
   /* margin-top: 30px; */
   font-family: "Modak", cursive;
-  background: linear-gradient(
-    180deg,
-    rgb(255, 2, 2),
-    rgb(248, 164, 7),
-    gold,
-    rgb(32, 255, 2),
-    rgb(23, 7, 248),
-    rgb(255, 6, 255)
-  );
+  background: linear-gradient(360deg, #329d9c, #56c596, #cff4d2);
   -webkit-text-fill-color: aliceblue;
   -webkit-text-emphasis: circle;
   border-radius: 2%;
   /* margin: 30px 35px; */
 }
+
 h1 {
   color: magenta;
 }
@@ -63,17 +59,21 @@ h1 {
 li {
   color: blue;
 }
+
 #a {
   color: red;
 }
+
 #p {
   color: gold;
 }
+
 #b {
   color: chartreuse;
 }
 
 /*Yubbz style*/
+
 iframe {
   margin: 0px 30px;
   width: -webkit-fill-available;
@@ -84,40 +84,39 @@ iframe {
   margin: 0;
   font-weight: 600;
 }
+
 .grey {
-  background: linear-gradient(
-    90deg,
-    rgb(255, 2, 2),
-    rgb(248, 164, 7),
-    gold,
-    rgb(32, 255, 2),
-    rgb(23, 7, 248),
-    rgb(255, 6, 255)
-  );
+  background: linear-gradient( 90deg, rgb(255, 2, 2), rgb(248, 164, 7), gold, rgb(32, 255, 2), rgb(23, 7, 248), rgb(255, 6, 255));
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 0.6rem;
   line-height: 1.2;
 }
+
 main {
   border-radius: 3%;
-  background-color: magenta;
+  background-color: #56c596;
   opacity: 0.9;
   padding: 18px 10px;
 }
+
 article {
   padding: 3px;
   display: flex;
   align-items: center;
 }
+
 .thumb {
   height: 70px;
   width: inherit;
 }
+
 /*styling for about me*/
+
 #fart {
   font-size: 3vw;
 }
+
 img {
   width: 100%;
   height: auto;
@@ -127,8 +126,10 @@ img {
 .animated {
   animation-duration: 2.5s;
   animation-fill-mode: both;
-  animation-iteration-count: 5; /*infinite causes all animation to increase speed*/
+  animation-iteration-count: 5;
+  /*infinite causes all animation to increase speed*/
 }
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -140,27 +141,23 @@ img {
     transform: scale(1);
   }
 }
+
 .pulse {
   animation-name: pulse;
   animation-duration: 1s;
 }
+
 /*style for dropdown*/
+
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   display: none;
   position: absolute;
   background-size: 30%;
-  background: linear-gradient(
-    90deg,
-    rgb(255, 2, 2),
-    rgb(248, 164, 7),
-    gold,
-    rgb(32, 255, 2),
-    rgb(23, 7, 248),
-    rgb(255, 6, 255)
-  );
+  background: linear-gradient( 360deg, #6096fd, #fb7b8e, #cff4d2);
   max-width: 100%;
   width: 80%;
   width: 95%;
@@ -171,6 +168,7 @@ img {
   box-shadow: 63px 40px 20px 14px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
 /* The [container <div> - needed to position the dropdown content */
 
 .dropdown {
@@ -180,20 +178,11 @@ img {
   /* display: inline-block; */
   max-width: 100%;
   /* margin-left: 4vw; */
-  background: linear-gradient(
-    90deg,
-    rgb(255, 2, 2),
-    rgb(248, 164, 7),
-    gold,
-    rgb(32, 255, 2),
-    rgb(23, 7, 248),
-    rgb(255, 6, 255)
-  );
-  background-size: 85%;
-  animation: rain 8s linear infinite;
-  /* border-radius: 50px 50px 50px 50px; */
+  background: linear-gradient( 180deg, #329d9c, #56c596, #cff4d2);
+  background-size: 100%;
   border-radius: 0px 0px 9px 9px;
 }
+
 @keyframes rain {
   0% {
     background-position: -500%;
@@ -247,6 +236,7 @@ img {
     background-position: 50%;
   }
 }
+
 #yubby {
   background-image: url("../images/yubz.png");
   background-repeat: no-repeat;
@@ -271,14 +261,16 @@ img {
     background-position: 50%;
   }
 }
+
 #wel {
   background-image: url("../images/ufo.png");
 }
+
 #contact {
   background-image: url("../images/contact.png");
 }
-#wel,
-#contact {
+
+#wel, #contact {
   background-repeat: no-repeat;
   background-size: contain;
   animation: takeMe 5s linear infinite;
@@ -316,7 +308,9 @@ img {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 /*for name on navbar*/
+
 #pimp {
   font-weight: 600;
   padding: 5px;
@@ -332,19 +326,19 @@ img {
 }
 
 /*css for portfolio*/
-#description,
-#txt {
+
+#description, #txt {
   font-weight: bolder;
   text-align: center;
   font-size: 15px;
 }
+
 #txt {
   padding: 8px 0px;
   color: mediumspringgreen;
 }
 
-.wrapper,
-.wrappers {
+.wrapper, .wrappers {
   display: flex;
   flex-wrap: wrap;
   height: fit-content;
@@ -352,13 +346,13 @@ img {
   font-family: "Open Sans", sans-serif;
 }
 
-.show,
-.hide {
+.show, .hide {
   max-height: 100%;
   max-width: 100%;
   margin: 10px;
   width: 145px;
 }
+
 .hide {
   margin-left: 0;
   background-color: mediumslateblue;
@@ -366,11 +360,13 @@ img {
   color: black;
   border-radius: 5px;
 }
+
 #aboutMe {
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
   margin-top: 65px;
 }
+
 button {
   border-radius: 50%;
   margin: 0px 8px 10px;
@@ -379,45 +375,50 @@ button {
   height: 150px;
   padding: 15px;
 }
+
 /*style for tubez*/
+
 #tubez {
   font-family: "Open Sans", sans-serif;
 }
+
 .container {
   margin-top: 44px;
 }
 
 /*styling for contact*/
-#github,
-#in,
-#ressy,
-#cell,
-#mail {
+
+#github, #in, #ressy, #cell, #mail {
   background-size: contain;
 }
-#ressy,
-#cell,
-#mail {
+
+#ressy, #cell, #mail {
   background-color: white;
 }
+
 #github {
   background-image: url("../images/git.png");
 }
+
 #in {
   background-image: url("../images/in.png");
 }
+
 #ressy {
   background-image: url("../images/resume.png");
 }
+
 #cell {
   font-size: 8px;
   font-weight: 900;
   color: chartreuse;
   background-image: url("../images/cel.png");
 }
+
 #mail {
   background-image: url("../images/email.png");
 }
+
 #cont {
   text-align: center;
 }
@@ -440,15 +441,6 @@ button {
     display: none;
     position: absolute;
     background-size: 30%;
-    background: linear-gradient(
-      90deg,
-      rgb(255, 2, 2),
-      rgb(248, 164, 7),
-      gold,
-      rgb(32, 255, 2),
-      rgb(23, 7, 248),
-      rgb(255, 6, 255)
-    );
     max-width: 100%;
     width: 80%;
     width: 95%;
@@ -485,12 +477,23 @@ button {
   .col-6 {
     width: 69%;
   }
-
+  .dropdown {
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 1;
+  }
   .dropdown-content {
     margin-left: 19px;
     margin-right: 17px;
   }
+  .container {
+    margin-top: 100px;
+  }
+  #aboutMe {
+    margin-top: 130px;
+  }
 }
+
 @media screen and (min-width: 1024px) {
   .container {
     width: -webkit-fill-available;
@@ -502,15 +505,12 @@ button {
     margin-left: 31px;
     margin-right: 27px;
   }
-
   #welcome {
-    margin: 30px 185px;
+    margin-top: 135px;
     border-radius: 3% 3% 3% 3%;
   }
-  #tubez {
-    margin: 30px 205px;
-  }
 }
+
 @media screen and (min-width: 1440px) {
   .container {
     width: -webkit-fill-available;
@@ -520,5 +520,4 @@ button {
   }
 }
 
-@media screen and (min-width: 2560px) {
-}
+@media screen and (min-width: 2560px) {}
