@@ -14,6 +14,15 @@ $(document).ready(function() {
   //code for portfolio
   var projects = [
     {
+      link:
+        "https://github.com/jpimentel45/liri-node-app/blob/master/README.md",
+      img: "assets/images/liri.png",
+      text: "LIRI",
+      description: "Utilized  Node.js, OMBD API, Bandsintown API, Spotify API",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/liri-node-app/blob/master/README.md"
+    },
+    {
       link: "https://krekorian.github.io/LAsafeParking/login.html",
       img: "assets/images/safe.png",
       text: "SafeStay",

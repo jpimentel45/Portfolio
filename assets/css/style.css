@@ -476,6 +476,8 @@ button {
   }
   .col-6 {
     width: 69%;
+    overflow-y: scroll;
+    height: 525px;
   }
   .dropdown {
     position: fixed;
