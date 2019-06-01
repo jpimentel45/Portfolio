@@ -119,8 +119,13 @@ article {
 
 img {
   width: 100%;
-  height: auto;
+  height: 42%;
+  /* height: unset; */
+  /* flex: 1 1 50%; */
   border-radius: 5px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .animated {
@@ -359,6 +364,10 @@ img {
   opacity: 0.9;
   color: black;
   border-radius: 5px;
+}
+
+.show {
+  height: 199px;
 }
 
 #aboutMe {
