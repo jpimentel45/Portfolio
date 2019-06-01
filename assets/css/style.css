@@ -438,9 +438,7 @@ button {
   }
   .dropdown {
     position: fixed;
-    width: 91vw;
-    max-width: 100%;
-    margin: 0px 18px auto;
+    width: 100%;
     z-index: 1;
   }
   #cont {
@@ -486,6 +484,7 @@ button {
     border-radius: 38%;
   }
   .dropdown-content {
+    margin: 10px;
     display: flex;
     width: -webkit-fill-available;
     flex: 1 1 50%;
@@ -507,10 +506,6 @@ button {
     height: -webkit-fill-available;
     margin-right: 168px;
     margin-left: 185px;
-  }
-  .dropdown-content {
-    margin-left: 31px;
-    margin-right: 27px;
   }
   #welcome {
     margin-top: 135px;
