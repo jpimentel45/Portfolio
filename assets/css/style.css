@@ -470,12 +470,14 @@ button {
     width: -webkit-fill-available;
     z-index: 1;
     border-radius: 38%;
+    place-content: center;
   }
   .dropdown-content {
     margin: 10px;
     display: flex;
-    width: -webkit-fill-available;
-    flex: 1 1 50%;
+    /* place-content: center; */
+    /* width: -webkit-fill-available;
+    flex: 1 1 50%; */
   }
   .dropAns {
     padding: 20px;
