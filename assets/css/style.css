@@ -172,6 +172,10 @@ img {
 
 /*css for portfolio*/
 
+#portImg {
+  height: 116px;
+}
+
 #description, #txt {
   font-weight: bolder;
   text-align: center;
