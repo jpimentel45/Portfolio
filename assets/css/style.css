@@ -470,10 +470,11 @@ button {
     /* flex: 1 1 25%; */
     background: linear-gradient( 360deg, #6096fd, #fb7b8e, #cff4d2);
     position: fixed;
-    width: -webkit-fill-available;
+    width: 100%;
     z-index: 1;
     border-radius: 38%;
     place-content: center;
+    justify-content: center;
   }
   .dropdown-content {
     margin: 10px;

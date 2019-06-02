@@ -548,17 +548,15 @@ button {
   .dropdown {
     margin: 0;
     padding: 0;
-    /* list-style: none; */
     flex-wrap: wrap;
     display: flex;
-    flex-direction: unset;
-    /* flex: 1 1 25%; */
-    background: linear-gradient( 360deg, #6096fd, #fb7b8e, #cff4d2);
+    background: linear-gradient( 360deg, #609792, #FB7AF0, #CFF5EE);
     position: fixed;
-    width: -webkit-fill-available;
+    width: 100%;
     z-index: 1;
     border-radius: 38%;
     place-content: center;
+    justify-content: center;
   }
   .dropdown-content {
     margin: 10px;
