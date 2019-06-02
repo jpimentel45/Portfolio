@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio has all been created on one HTML document, with a dropdown navbar, which resizes on mobile screens. All containers are hidden through DOM manipulation, and a specific container will show, depending on the selection on Nav. Included a Youtube section; used API to have my favorite playlist on my Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpimentel45/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpimentel45/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jpimentel45/Portfolio#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0"
+  }
+}

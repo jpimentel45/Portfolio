@@ -432,6 +432,9 @@ button {
   #cont {
     margin: 45px 30px;
   }
+  #portImg {
+    height: 11vh;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -487,6 +490,9 @@ button {
   }
   #aboutMe {
     margin-top: 130px;
+  }
+  #portImg {
+    height: 20vh;
   }
 }
 
