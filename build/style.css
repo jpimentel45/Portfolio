@@ -130,49 +130,49 @@ img {
 
 .animated {
   -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
+  animation-duration: 2.5s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-iteration-count: 5;
-          animation-iteration-count: 5;
+  animation-iteration-count: 5;
   /*infinite causes all animation to increase speed*/
 }
 
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes pulse {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 .pulse {
   -webkit-animation-name: pulse;
-          animation-name: pulse;
+  animation-name: pulse;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 /*style for dropdown*/
@@ -274,26 +274,26 @@ button {
 }
 
 #github {
-  background-image: url("../images/git.png");
+  background-image: url("../assets/images/git.png");
 }
 
 #in {
-  background-image: url("../images/in.png");
+  background-image: url("../assets/images/in.png");
 }
 
 #ressy {
-  background-image: url("../images/resume.png");
+  background-image: url("../assets/images/resume.png");
 }
 
 #cell {
   font-size: 8px;
   font-weight: 900;
   color: chartreuse;
-  background-image: url("../images/cel.png");
+  background-image: url("../assets/images/cel.png");
 }
 
 #mail {
-  background-image: url("../images/email.png");
+  background-image: url("../assets/images/email.png");
 }
 
 #cont {
@@ -334,7 +334,7 @@ button {
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-animation: animate 4s linear infinite;
-            animation: animate 4s linear infinite;
+    animation: animate 4s linear infinite;
     animation-direction: alternate-reverse;
     margin: 0;
     padding-top: 10px;
@@ -361,7 +361,7 @@ button {
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-animation: launch 9s linear infinite;
-            animation: launch 9s linear infinite;
+    animation: launch 9s linear infinite;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -399,7 +399,7 @@ button {
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-animation: yub 9s linear infinite;
-            animation: yub 9s linear infinite;
+    animation: yub 9s linear infinite;
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -442,7 +442,7 @@ button {
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-animation: takeMe 5s linear infinite;
-            animation: takeMe 5s linear infinite;
+    animation: takeMe 5s linear infinite;
     animation-direction: alternate-reverse;
     margin: 0;
     padding-top: 10px;
