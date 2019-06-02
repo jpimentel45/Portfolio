@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url("../images/ghost.gif");
+  background-image: url("../assets/images/ghost.gif");
   background-size: contain;
 }
 
@@ -548,9 +548,12 @@ button {
   .dropdown {
     margin: 0;
     padding: 0;
+    /* list-style: none; */
     flex-wrap: wrap;
     display: flex;
-    background: linear-gradient( 360deg, #609792, #FB7AF0, #CFF5EE);
+    flex-direction: unset;
+    /* flex: 1 1 25%; */
+    background: linear-gradient( 360deg, #6096fd, #fb7b8e, #cff4d2);
     position: fixed;
     width: 100%;
     z-index: 1;
