@@ -177,6 +177,15 @@ img {
 
 /*style for dropdown*/
 
+.dropAns, #pimp:hover {
+  cursor: grab;
+}
+
+.dropAns:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
 /*for name on navbar*/
 
 #pimp {

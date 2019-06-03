@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url("../images/ghost.gif");
+  background-image: url("../assets/images/ghost.gif");
   background-size: contain;
 }
 
@@ -152,7 +152,11 @@ img {
   animation-duration: 1s;
 }
 
-/*style for dropdown*/
+/*style for dropdown-content*/
+
+.dropAns:hover {
+  background-image: url("../images/poo.png");
+}
 
 /*for name on navbar*/
 
@@ -247,26 +251,26 @@ button {
 }
 
 #github {
-  background-image: url("../images/git.png");
+  background-image: url("../assets/images/git.png");
 }
 
 #in {
-  background-image: url("../images/in.png");
+  background-image: url("../assets/images/in.png");
 }
 
 #ressy {
-  background-image: url("../images/resume.png");
+  background-image: url("../assets/images/resume.png");
 }
 
 #cell {
   font-size: 8px;
   font-weight: 900;
   color: chartreuse;
-  background-image: url("../images/cel.png");
+  background-image: url("../assets/images/cel.png");
 }
 
 #mail {
-  background-image: url("../images/email.png");
+  background-image: url("../assets/images/email.png");
 }
 
 #cont {
@@ -295,7 +299,7 @@ button {
     }
   }
   #me {
-    background-image: url("../images/juanito.jpg");
+    background-image: url("../assets/images/juanito.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     animation: animate 4s linear infinite;
@@ -313,7 +317,7 @@ button {
     }
   }
   #port {
-    background-image: url("../images/launch.png");
+    background-image: url("../assets/images/launch.png");
     background-repeat: no-repeat;
     background-size: contain;
     animation: launch 9s linear infinite;
@@ -336,7 +340,7 @@ button {
     }
   }
   #yubby {
-    background-image: url("../images/yubz.png");
+    background-image: url("../assets/images/yubz.png");
     background-repeat: no-repeat;
     background-size: contain;
     animation: yub 9s linear infinite;
@@ -359,10 +363,10 @@ button {
     }
   }
   #wel {
-    background-image: url("../images/ufo.png");
+    background-image: url("../assets/images/ufo.png");
   }
   #contact {
-    background-image: url("../images/contact.png");
+    background-image: url("../assets/images/contact.png");
   }
   #wel, #contact {
     background-repeat: no-repeat;
