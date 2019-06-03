@@ -178,7 +178,7 @@ img {
 /*style for dropdown*/
 
 .dropAns, #pimp:hover {
-  cursor: grab;
+  cursor: pointer;
 }
 
 .dropAns:hover {
