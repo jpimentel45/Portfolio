@@ -170,7 +170,7 @@ $(document).ready(function() {
     },
     {
       link:
-        "https://drive.google.com/file/d/1nhKmPkZxP72VWy3KJN7LiQRd8SdNvVth/view?usp=sharing",
+        "https://drive.google.com/file/d/17lLlSAH1-MIGuDD_P4Cj2GmWbUFzMxUT/view?usp=sharing",
       id: "ressy"
     },
     {
