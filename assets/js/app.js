@@ -44,7 +44,7 @@ $(document).ready(function() {
       link: "https://jpimentel45.github.io/TrainSchedule/train",
       img: "assets/images/train.png",
       text: "Train Schedule",
-      description: "Utilized firebase to store, and append data to html",
+      description: "Utilized firebase to store and append data to html",
       git: "Github",
       hub: "https://github.com/jpimentel45/TrainSchedule"
     },
@@ -52,15 +52,40 @@ $(document).ready(function() {
       link: "https://jpimentel45.github.io/TriviaGame/",
       img: "assets/images/trivia.png",
       text: "Trivia Game",
-      description: "Random trivia question, with timer, and answer count",
+      description: "Random trivia question with timer, and answer count",
       git: "Github",
       hub: "https://github.com/jpimentel45/TriviaGame"
+    },
+    {
+      link: "https://jpimentel45.github.io/Tipsy/",
+      img: "assets/images/tip.png",
+      text: "Tip Calculator",
+      description:
+        "Simple tip calculator that takes in user value, returns tip amount and total bill including tip.",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/Tipsy"
+    },
+    {
+      link: "https://jpimentel45.github.io/jsVariables/",
+      img: "assets/images/jsVar.png",
+      text: "Dynamic CSS",
+      description: "Dynamically change CSS values based on input",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/jsVariables"
+    },
+    {
+      link: "https://jpimentel45.github.io/jsKeys/",
+      img: "assets/images/jsKeys.png",
+      text: "JS Keys",
+      description: "Dynamically play stored sounds based on key event.",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/jsKeys"
     },
     {
       link: "https://jpimentel45.github.io/Psychic_Game/",
       img: "assets/images/psychic.png",
       text: "Psychic Game",
-      description: "Simple guess game base on user keypress",
+      description: "Simple guess game based on user keypress",
       git: "Github",
       hub: "https://github.com/jpimentel45/Psychic_Game"
     }

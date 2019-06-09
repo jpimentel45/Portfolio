@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient( 360deg, #329d9c, #56c596, #cff4d2);
+  background: linear-gradient(360deg, #329d9c, #56c596, #cff4d2);
 }
 
 body {
@@ -86,7 +86,15 @@ iframe {
 }
 
 .grey {
-  background: linear-gradient( 90deg, rgb(255, 2, 2), rgb(248, 164, 7), gold, rgb(32, 255, 2), rgb(23, 7, 248), rgb(255, 6, 255));
+  background: linear-gradient(
+    90deg,
+    rgb(255, 2, 2),
+    rgb(248, 164, 7),
+    gold,
+    rgb(32, 255, 2),
+    rgb(23, 7, 248),
+    rgb(255, 6, 255)
+  );
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 0.6rem;
@@ -177,7 +185,8 @@ img {
 
 /*style for dropdown*/
 
-.dropAns, #pimp:hover {
+.dropAns,
+#pimp:hover {
   cursor: pointer;
 }
 
@@ -208,7 +217,8 @@ img {
   height: 160px;
 }
 
-#description, #txt {
+#description,
+#txt {
   font-weight: bolder;
   text-align: center;
   font-size: 15px;
@@ -219,7 +229,8 @@ img {
   color: mediumspringgreen;
 }
 
-.wrapper, .wrappers {
+.wrapper,
+.wrappers {
   display: flex;
   flex-wrap: wrap;
   height: -webkit-fit-content;
@@ -229,14 +240,18 @@ img {
   font-family: "Open Sans", sans-serif;
 }
 
-.show, .hide {
-  flex: 1 1 25%;
+.show,
+.hide {
+  /* flex: 1 1 25%; */
   max-height: 100%;
   max-width: 100%;
   margin: 10px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  display: flex;
+  flex: 1 1 25%;
+  flex-direction: column;
 }
 
 .hide {
@@ -274,11 +289,17 @@ button {
 
 /*styling for contact*/
 
-#github, #in, #ressy, #cell, #mail {
+#github,
+#in,
+#ressy,
+#cell,
+#mail {
   background-size: contain;
 }
 
-#ressy, #cell, #mail {
+#ressy,
+#cell,
+#mail {
   background-color: white;
 }
 
@@ -318,7 +339,7 @@ button {
     /* display: inline-block; */
     max-width: 100%;
     /* margin-left: 4vw; */
-    background: linear-gradient( 180deg, #329d9c, #56c596, #cff4d2);
+    background: linear-gradient(180deg, #329d9c, #56c596, #cff4d2);
     background-size: 100%;
     border-radius: 0px 0px 9px 9px;
   }
@@ -447,7 +468,8 @@ button {
   #contact {
     background-image: url("../assets/images/contact.png");
   }
-  #wel, #contact {
+  #wel,
+  #contact {
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-animation: takeMe 5s linear infinite;
@@ -503,7 +525,7 @@ button {
     font-size: 5vw;
   }
   .dropdown-content {
-    background: linear-gradient( 360deg, #6096fd, #fb7b8e, #cff4d2);
+    background: linear-gradient(360deg, #6096fd, #fb7b8e, #cff4d2);
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     display: none;
@@ -562,7 +584,7 @@ button {
     display: flex;
     flex-direction: unset;
     /* flex: 1 1 25%; */
-    background: linear-gradient( 360deg, #6096fd, #fb7b8e, #cff4d2);
+    background: linear-gradient(360deg, #6096fd, #fb7b8e, #cff4d2);
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -613,4 +635,5 @@ button {
   }
 }
 
-@media screen and (min-width: 2560px) {}
+@media screen and (min-width: 2560px) {
+}
