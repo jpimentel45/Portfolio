@@ -529,6 +529,7 @@ button {
   }
   .dropdown-content {
     font-family: "Open Sans", sans-serif;
+    background: linear-gradient(360deg, #6096fd, #fb7b8e, #cff4d2);
     font-weight: 700;
     display: none;
     position: absolute;
