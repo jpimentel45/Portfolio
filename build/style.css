@@ -537,6 +537,7 @@ button {
     width: -webkit-fill-available;
     margin-top: 85%;
     position: absolute;
+    border-radius: 35px 35px 0 0;
   }
 
   #fart {
