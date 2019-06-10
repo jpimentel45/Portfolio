@@ -76,9 +76,10 @@ iframe {
   background-size: 100%;
   font-size: 0.6rem;
   line-height: 1.2;
+  width: fit-content;
 }
 .details {
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 main {
   border-radius: 35px;
