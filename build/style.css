@@ -38,18 +38,18 @@ body {
 
 #welcome {
   font-family: "Open Sans", sans-serif;
-  font-size: larger;
-  height: 66%;
+  font-size: 94%;
+  height: 54%;
   line-height: 2.5;
+  max-height: fit-content;
   position: absolute;
   text-align: center;
   -webkit-text-fill-color: aliceblue;
   border-radius: 9px;
   background-color: rgba(0, 0, 0, 0.8);
-  margin: 23% 8%;
+  margin: 34% 8%;
   padding: 14px;
 }
-
 /*Yubbz style*/
 
 iframe {
