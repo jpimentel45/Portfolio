@@ -521,13 +521,11 @@ button {
   }
   main,
   .col-6 {
-    width: 100%;
+    width: auto;
     margin-top: 85%;
     position: absolute;
   }
-  main {
-    margin-top: 68%;
-  }
+
   #fart {
     font-size: 5vw;
   }
