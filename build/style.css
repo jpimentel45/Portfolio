@@ -1,7 +1,7 @@
 body {
   line-height: 1;
   height: -webkit-fill-available;
-  height: 153vh;
+  height: 137vh;
   background: linear-gradient(40deg, #0b0742, #120c6e, #5e72eb);
 }
 
@@ -77,7 +77,6 @@ iframe {
   font-size: 0.6rem;
   line-height: 1.2;
 }
-
 main {
   border-radius: 35px;
   background-color: rgba(0, 0, 0, 0.8);
