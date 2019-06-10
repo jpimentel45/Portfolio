@@ -45,7 +45,7 @@ body {
 
   -webkit-text-fill-color: aliceblue;
   -webkit-text-emphasis: circle;
-  border-radius: 2%;
+  border-radius: 9px;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -291,6 +291,7 @@ button {
 }
 
 .container {
+  width: auto;
   margin-top: 9%;
   height: 100vh;
 }
