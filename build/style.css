@@ -534,6 +534,7 @@ button {
   main,
   .col-6 {
     width: auto;
+    width: -webkit-fill-available;
     margin-top: 85%;
     position: absolute;
   }
