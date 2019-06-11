@@ -127,8 +127,11 @@ $(document).ready(function() {
 
   // Get the parent DIV, add click listener...
   $(".hide").hide();
-  $(".show").on("click mouseleave", function(e) {
+  $(".show").on("click", function(e) {
     $(".hide").toggle();
+  });
+  $(".show").on("mouseover", function(e) {
+    $(".hide").show();
   });
 
   //code for yubez

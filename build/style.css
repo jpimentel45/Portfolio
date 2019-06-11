@@ -1,8 +1,11 @@
+html {
+  height: 100%;
+}
 body {
   line-height: 1;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available;
   height: 100vh;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   background: linear-gradient(40deg, #0b0742, #120c6e, #5e72eb);
 }
 
