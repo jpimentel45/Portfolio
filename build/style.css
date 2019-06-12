@@ -43,7 +43,6 @@ body {
 #welcome {
   font-family: "Open Sans", sans-serif;
   font-size: 85%;
-  height: 54%;
   line-height: 2.5;
   max-height: fit-content;
   position: absolute;
@@ -51,7 +50,7 @@ body {
   -webkit-text-fill-color: aliceblue;
   border-radius: 9px;
   background-color: rgba(0, 0, 0, 0.8);
-  margin: 45% 8%;
+  margin: 36% 8%;
   padding: 14px;
 }
 /*Yubbz style*/
@@ -237,7 +236,6 @@ img {
 
 .show,
 .hide {
-  /* flex: 1 1 25%; */
   max-height: 100%;
   max-width: 100%;
   margin: 10px;
@@ -245,18 +243,24 @@ img {
   height: -moz-min-content;
   height: min-content;
   display: flex;
-  flex: 1 1 25%;
   flex-direction: column;
+  box-sizing: border-box;
+  width: 140px;
+  height: auto;
+  box-sizing: border-box;
 }
-
 .hide {
   margin: 0;
   background-color: mediumslateblue;
   opacity: 0.9;
   color: black;
   border-radius: 5px;
+  /* padding: 16px; */
+  width: auto;
+  height: 100%;
+  box-sizing: border-box;
+  place-content: center;
 }
-
 #aboutMe {
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
@@ -605,10 +609,12 @@ button {
     padding: 20px;
   }
 
-  #welcome,
   #aboutMe,
   #portfolio {
     margin-top: 10%;
+  }
+  #welcome {
+    margin: 22% 26%;
   }
   #portImg {
     height: 20vh;
