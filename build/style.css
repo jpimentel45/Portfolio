@@ -539,12 +539,10 @@ button {
     background: linear-gradient(360deg, #6096fd, #fb7b8e, #cff4d2);
     font-weight: 700;
     display: none;
-    position: absolute;
+    position: fixed;
     max-width: 100%;
-    width: 80%;
     width: 95%;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin: 0 2.5%;
     border-radius: 2px 2px 9px 9px;
     text-align: center;
     box-shadow: 63px 40px 20px 14px rgba(0, 0, 0, 0.2);
