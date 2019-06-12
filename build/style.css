@@ -1,6 +1,7 @@
 html {
   height: 100%;
 }
+
 body {
   line-height: 1;
   /* height: -webkit-fill-available;
@@ -53,6 +54,7 @@ body {
   margin: 36% 8%;
   padding: 14px;
 }
+
 /*Yubbz style*/
 
 iframe {
@@ -66,24 +68,18 @@ iframe {
 }
 
 .grey {
-  background: linear-gradient(
-    90deg,
-    rgb(255, 2, 2),
-    rgb(248, 164, 7),
-    gold,
-    rgb(32, 255, 2),
-    rgb(23, 7, 248),
-    rgb(255, 6, 255)
-  );
+  background: linear-gradient( 90deg, rgb(255, 2, 2), rgb(248, 164, 7), gold, rgb(32, 255, 2), rgb(23, 7, 248), rgb(255, 6, 255));
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 0.6rem;
   line-height: 1.2;
   width: fit-content;
 }
+
 .details {
   overflow-x: scroll;
 }
+
 main {
   border-radius: 35px;
   background-color: rgba(0, 0, 0, 0.8);
@@ -179,8 +175,7 @@ img {
 
 /*style for dropdown*/
 
-.dropAns,
-#pimp:hover {
+.dropAns, #pimp:hover {
   cursor: pointer;
 }
 
@@ -211,8 +206,7 @@ img {
   height: 160px;
 }
 
-#description,
-#txt {
+#description, #txt {
   font-weight: bolder;
   text-align: center;
   font-size: 15px;
@@ -223,8 +217,7 @@ img {
   color: mediumspringgreen;
 }
 
-.wrapper,
-.wrappers {
+.wrapper, .wrappers {
   display: flex;
   flex-wrap: wrap;
   height: -webkit-fit-content;
@@ -234,8 +227,7 @@ img {
   font-family: "Open Sans", sans-serif;
 }
 
-.show,
-.hide {
+.show, .hide {
   max-height: 100%;
   max-width: 100%;
   margin: 10px;
@@ -249,6 +241,7 @@ img {
   height: auto;
   box-sizing: border-box;
 }
+
 .hide {
   margin: 0;
   background-color: mediumslateblue;
@@ -259,8 +252,9 @@ img {
   width: auto;
   height: 100%;
   box-sizing: border-box;
-  place-content: center;
+  place-content: space-around;
 }
+
 #aboutMe {
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
@@ -289,17 +283,11 @@ button {
 
 /*styling for contact*/
 
-#github,
-#in,
-#ressy,
-#cell,
-#mail {
+#github, #in, #ressy, #cell, #mail {
   background-size: contain;
 }
 
-#ressy,
-#cell,
-#mail {
+#ressy, #cell, #mail {
   background-color: white;
 }
 
@@ -329,6 +317,7 @@ button {
 #cont {
   text-align: center;
 }
+
 .dropdown {
   background: linear-gradient(36deg, #60f, #07d1bf, #60f4a0, #60f);
 }
@@ -342,7 +331,6 @@ button {
     /* display: inline-block; */
     max-width: 100%;
     /* margin-left: 4vw; */
-
     background-size: 100%;
     border-radius: 0px 0px 9px 9px;
   }
@@ -471,8 +459,7 @@ button {
   #contact {
     background-image: url("../assets/images/contact.png");
   }
-  #wel,
-  #contact {
+  #wel, #contact {
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-animation: takeMe 5s linear infinite;
@@ -515,22 +502,19 @@ button {
   [class*="col-"] {
     float: none;
   }
-  #video,
-  .col-3 {
+  #video, .col-3 {
     width: 84%;
     margin-bottom: 20px;
     margin: 0 8%;
     position: fixed;
   }
-  main,
-  .col-6 {
+  main, .col-6 {
     width: auto;
     width: -webkit-fill-available;
     margin-top: 85%;
     position: absolute;
     border-radius: 35px 35px 0 0;
   }
-
   #fart {
     font-size: 5vw;
   }
@@ -588,7 +572,6 @@ button {
     display: flex;
     flex-direction: unset;
     /* flex: 1 1 25%; */
-
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -606,9 +589,7 @@ button {
   .dropAns {
     padding: 20px;
   }
-
-  #aboutMe,
-  #portfolio {
+  #aboutMe, #portfolio {
     margin-top: 10%;
   }
   #welcome {
