@@ -1,4 +1,4 @@
-html {
+html, body {
   height: 100%;
 }
 
@@ -515,7 +515,7 @@ button {
     margin-top: 360px;
   }
   .col-6 {
-    margin-top: 405px;
+    margin-top: 87%;
   }
   #fart {
     font-size: 5vw;
