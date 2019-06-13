@@ -4,10 +4,7 @@ html {
 
 body {
   line-height: 1;
-  /* height: -webkit-fill-available;
-  height: 100vh;
-  background-repeat: no-repeat; */
-  background: linear-gradient(40deg, #0b0742, #120c6e, #5e72eb);
+  background: linear-gradient(40deg, #0b0742, #120c6e, #5e72eb)no-repeat center center fixed;
 }
 
 /* div {
@@ -511,9 +508,14 @@ button {
   main, .col-6 {
     width: auto;
     width: -webkit-fill-available;
-    margin-top: 85%;
     position: absolute;
     border-radius: 35px 35px 0 0;
+  }
+  main {
+    margin-top: 360px;
+  }
+  .col-6 {
+    margin-top: 405px;
   }
   #fart {
     font-size: 5vw;
@@ -538,7 +540,7 @@ button {
     z-index: 1;
   }
   #portImg {
-    height: 11vh;
+    height: 14vh;
   }
 }
 
@@ -597,5 +599,21 @@ button {
   }
   #portImg {
     height: 20vh;
+  }
+  #video {
+    position: fixed;
+    width: 76%;
+    margin: auto;
+    margin-bottom: 54px;
+    z-index: 0;
+  }
+  main {
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 18px 10px;
+    color: white;
+    width: -webkit-fill-available;
+    position: absolute;
+    margin: 379px 0 0;
   }
 }
