@@ -82,6 +82,14 @@ $(document).ready(function() {
       hub: "https://github.com/jpimentel45/jsKeys"
     },
     {
+      link: "https://github.com/jpimentel45/amazon",
+      img: "assets/images/amazon.png",
+      text: "Amazon",
+      description: "Amazon-like store front.",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/amazon"
+    },
+    {
       link: "https://jpimentel45.github.io/Psychic_Game/",
       img: "assets/images/psychic.png",
       text: "Psychic Game",
