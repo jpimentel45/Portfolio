@@ -1,7 +1,7 @@
 var gulp = require("gulp");
 var autoprefixer = require("gulp-autoprefixer");
 
-gulp.task("style", function() {
+gulp.task("style", async function() {
   gulp
     .src("assets/css/style.css")
     .pipe(autoprefixer())
@@ -9,5 +9,5 @@ gulp.task("style", function() {
 });
 
 gulp.task("watch", function() {
-  gulp.watch("assets/css/style.css", ["style"]);
+  gulp.watch("assets/css/style.css", gulp.series("style"));
 });

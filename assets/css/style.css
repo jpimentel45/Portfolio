@@ -1,10 +1,12 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
   line-height: 1;
-  background: linear-gradient(40deg, #0b0742, #120c6e, #5e72eb)no-repeat center center fixed;
+  background: linear-gradient(40deg, #0b0742, #120c6e, #5e72eb) no-repeat center
+    center fixed;
 }
 
 /* div {
@@ -65,7 +67,15 @@ iframe {
 }
 
 .grey {
-  background: linear-gradient( 90deg, rgb(255, 2, 2), rgb(248, 164, 7), gold, rgb(32, 255, 2), rgb(23, 7, 248), rgb(255, 6, 255));
+  background: linear-gradient(
+    90deg,
+    rgb(255, 2, 2),
+    rgb(248, 164, 7),
+    gold,
+    rgb(32, 255, 2),
+    rgb(23, 7, 248),
+    rgb(255, 6, 255)
+  );
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 0.6rem;
@@ -172,7 +182,8 @@ img {
 
 /*style for dropdown*/
 
-.dropAns, #pimp:hover {
+.dropAns,
+#pimp:hover {
   cursor: pointer;
 }
 
@@ -203,7 +214,8 @@ img {
   height: 160px;
 }
 
-#description, #txt {
+#description,
+#txt {
   font-weight: bolder;
   text-align: center;
   font-size: 15px;
@@ -214,7 +226,8 @@ img {
   color: mediumspringgreen;
 }
 
-.wrapper, .wrappers {
+.wrapper,
+.wrappers {
   display: flex;
   flex-wrap: wrap;
   height: -webkit-fit-content;
@@ -224,7 +237,8 @@ img {
   font-family: "Open Sans", sans-serif;
 }
 
-.show, .hide {
+.show,
+.hide {
   max-height: 100%;
   max-width: 100%;
   margin: 10px;
@@ -280,11 +294,17 @@ button {
 
 /*styling for contact*/
 
-#github, #in, #ressy, #cell, #mail {
+#github,
+#in,
+#ressy,
+#cell,
+#mail {
   background-size: contain;
 }
 
-#ressy, #cell, #mail {
+#ressy,
+#cell,
+#mail {
   background-color: white;
 }
 
@@ -456,7 +476,8 @@ button {
   #contact {
     background-image: url("../assets/images/contact.png");
   }
-  #wel, #contact {
+  #wel,
+  #contact {
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-animation: takeMe 5s linear infinite;
@@ -499,13 +520,15 @@ button {
   [class*="col-"] {
     float: none;
   }
-  #video, .col-3 {
+  #video,
+  .col-3 {
     width: 84%;
     margin-bottom: 20px;
     margin: 0 8%;
     position: fixed;
   }
-  main, .col-6 {
+  main,
+  .col-6 {
     width: auto;
     width: -webkit-fill-available;
     position: absolute;
@@ -591,7 +614,8 @@ button {
   .dropAns {
     padding: 20px;
   }
-  #aboutMe, #portfolio {
+  #aboutMe,
+  #portfolio {
     margin-top: 10%;
   }
   #welcome {
