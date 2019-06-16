@@ -33,7 +33,7 @@ $(document).ready(function() {
     },
     {
       link: "https://jpimentel45.github.io/Giftastic/",
-      img: "assets/images/giftstic.png",
+      img: "assets/images/giphy.png",
       text: "Giftastic",
       description:
         "Utilized Giphy Api to append gifs based on topics created by user",
