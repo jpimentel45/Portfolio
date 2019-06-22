@@ -14,15 +14,6 @@ $(document).ready(function() {
   //code for portfolio
   var projects = [
     {
-      link:
-        "https://github.com/jpimentel45/liri-node-app/blob/master/README.md",
-      img: "assets/images/liri.png",
-      text: "LIRI",
-      description: "Utilized  Node.js, OMBD API, Bandsintown API, Spotify API",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/liri-node-app/blob/master/README.md"
-    },
-    {
       link: "https://krekorian.github.io/LAsafeParking/login.html",
       img: "assets/images/safe.png",
       text: "SafeStay",
@@ -31,6 +22,24 @@ $(document).ready(function() {
       git: "Github",
       hub: "https://github.com/krekorian/LAsafeParking"
     },
+    {
+      link: "https://guarded-lowlands-48682.herokuapp.com/",
+      img: "assets/images/home.png",
+      text: "Friend Finder",
+      description: "Utilized  Turbo, Express, and Node.js",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/FriendFinder/blob/master/README.md"
+    },
+    {
+      link:
+        "https://github.com/jpimentel45/liri-node-app/blob/master/README.md",
+      img: "assets/images/liri.png",
+      text: "LIRI",
+      description: "Utilized  Node.js, OMBD API, Bandsintown API, Spotify API",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/liri-node-app/blob/master/README.md"
+    },
+
     {
       link: "https://jpimentel45.github.io/Giftastic/",
       img: "assets/images/giphy.png",
