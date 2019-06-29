@@ -23,6 +23,14 @@ $(document).ready(function() {
       hub: "https://github.com/krekorian/LAsafeParking"
     },
     {
+      link: "https://warm-crag-68005.herokuapp.com/",
+      img: "assets/images/goodBurger.png",
+      text: "Good Burger",
+      description: "MVC with CRUD operations, and mySQL db",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/burger"
+    },
+    {
       link: "https://guarded-lowlands-48682.herokuapp.com/",
       img: "assets/images/home.png",
       text: "Friend Finder",
