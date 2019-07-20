@@ -14,6 +14,14 @@ $(document).ready(function() {
   //code for portfolio
   var projects = [
     {
+      link: "https://morning-atoll-33943.herokuapp.com/signin",
+      img: "assets/images/eportal.png",
+      text: "ePortal",
+      description: "Utilized Sequelize, MVP model, User Authentication, Heroku",
+      git: "Github",
+      hub: "https://github.com/krekorian/Project2"
+    },
+    {
       link: "https://krekorian.github.io/LAsafeParking/login.html",
       img: "assets/images/safe.png",
       text: "SafeStay",
