@@ -37,6 +37,13 @@ $(document).ready(function() {
         "Utilized  Google Maps Api, Firebase Realtime Database, Weather api",
       git: "Github",
       hub: "https://github.com/krekorian/LAsafeParking"
+    }, {
+      link: "https://glacial-shelf-22512.herokuapp.com/",
+      img: "assets/images/poke.png",
+      text: "Pokemon Hooks",
+      description: "React Hooks, with Poke API",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/pokemon-react"
     },
     {
       link: "https://warm-crag-68005.herokuapp.com/",
