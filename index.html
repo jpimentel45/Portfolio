@@ -1,83 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" media="screen"
-            href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" media="screen"
-            href="build/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Modak"
-            rel="stylesheet">
-        <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-            rel="stylesheet">
-        <title>Juanito's Portfolio</title>
-    </head>
-    <body>
-        <nav class="dropdown">
-            <p class="animated pulse" id="pimp"> Juan Alberto Pimentel JR
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="build/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Juanito's Portfolio</title>
+</head>
+
+<body>
+    <nav class="dropdown">
+        <p class="animated pulse" id="pimp"> Juan Alberto Pimentel JR
+        </p>
+        <div class="dropdown-content">
+            <p class="dropAns" id="wel" data-targetid="welcome">Welcome</p>
+            <p class="dropAns" id="me" data-targetid="aboutMe">About Me</p>
+            <p class="dropAns" id="port" data-targetid="portfolio">Portfolio</p>
+            <p class="dropAns" id="yubby" data-targetid="tubez">Youtube</p>
+            <p class="dropAns" id="contact" data-targetid="cont">Contact</p>
+        </div>
+    </nav>
+    <br>
+    <div class="container" id="welcome">
+        <h1>Hola! Welcome to my portfolio</h1>
+        <ul>
+            <p id="p">How to navigate:</p>
+            <li>Header is my Navbar</li>
+            <li id="a">Desktop and Phone: Just tap to toggle dropdown</li>
+            <li id="p">Portfolio: Tap project image to toggle description
+                linked to actual project, and to github repository</li>
+            <li id="a">Desktop: toggle on mouseleave, or tap</li>
+        </ul>
+    </div>
+
+    <div class="container" id="aboutMe">
+        <div class="col-3 marg">
+            <img src="assets/images/juanito.jpg" alt="sexy Me" id="float">
+        </div>
+        <div class="col-6 marg">
+            <p id="fart">My name is Juan Alberto
+                Pimentel JR. I am 24 years old, 6'2, and have a growing passion for coding </p>
+            <br>
+            <p id="fart">I recently attended, and completed, the coding bootcamp at UCLA to become a full stack web
+                developer. It was a very challenging journey, but the knowledge I gained within a short period of time
+                has given me the confidence to dive into anything. There are so many resources out there to help us
+                learn the most recent technology, I am sure I can keep on learning, as long as I challenge myself.
             </p>
-            <div class="dropdown-content">
-                <p class="dropAns" id="wel" data-targetid="welcome">Welcome</p>
-                <p class="dropAns" id="me" data-targetid="aboutMe">About Me</p>
-                <p class="dropAns" id="port" data-targetid="portfolio">Portfolio</p>
-                <p class="dropAns" id="yubby" data-targetid="tubez">Youtube</p>
-                <p class="dropAns" id="contact" data-targetid="cont">Contact</p>
-            </div>
-        </nav>
-        <br>
-        <div class="container" id="welcome">
-            <h1>Hola! Welcome to my portfolio</h1>
-            <ul><p id="p">How to navigate:</p>
-                <li>Header is my Navbar</li>
-                <li id="a">Desktop and Phone: Just tap to toggle dropdown</li>
-                <li id="p">Portfolio: Tap project image to toggle description
-                    linked to actual project, and to github repository</li>
-                <li id="a">Desktop: toggle on mouseleave, or tap</li>
-            </ul>
         </div>
+    </div>
+    <br>
+    <div class="container" id="portfolio">
 
-        <div class="container" id="aboutMe">
-            <div class="col-3 marg">
-                <img src="assets/images/juanito.jpg" alt="sexy Me" id="float">
-            </div>
-            <div class="col-6 marg"><p id="fart">My name is Juan Alberto
-                    Pimentel JR. I am 24 years old, I am 6'2, and despite my
-                    skin color, I am 100% Mexican, not white/mixed.</p>
-                <br>
-                <p id="fart">I have been attending PCC for 4 years. I was
-                    originally majoring in Nursing. I completed all my general
-                    ed courses, as well as the classes required to apply to the
-                    Nursing progam. I am currently studying for my TEA's exam,
-                    so I could apply to Nursing school. While I improve my
-                    knowledge in Nursing, I thought it would be great to enroll
-                    in UCLA's coding bootcamp. So far the class seems
-                    stressfull, but at the same time I am enjoying the class
-                    content.</p></div>
-        </div>
-        <br>
-        <div class="container" id="portfolio">
+    </div>
+    <br>
+    <div class="container" id="tubez">
 
-        </div>
-        <br>
-        <div class="container" id="tubez">
+        <section id="video"></section>
 
-            <section id="video"></section>
+        <main>
 
-            <main>
-
-            </main>
-        </div>
-        <div class="container" id="cont">
+        </main>
+    </div>
+    <div class="container" id="cont">
 
 
-        </div>
+    </div>
 
-        <script src="assets/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
 
-    </body>
+</body>
+
 </html>
