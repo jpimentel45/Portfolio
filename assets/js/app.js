@@ -14,6 +14,14 @@ $(document).ready(function() {
   //code for portfolio
   var projects = [
     {
+      link: "https://safe-castle-74337.herokuapp.com/login#/",
+      img: "assets/images/eportal.png",
+      text: "TeaSpots",
+      description: "Utilized React-Redux, User Authentication, Front End & Back End Server, Heroku",
+      git: "Github",
+      hub: "https://github.com/jpimentel45/reactTea"
+    },
+    {
       link: "https://morning-atoll-33943.herokuapp.com/signin",
       img: "assets/images/eportal.png",
       text: "ePortal",
@@ -37,91 +45,91 @@ $(document).ready(function() {
       description: "MVC with CRUD operations, and mySQL db",
       git: "Github",
       hub: "https://github.com/jpimentel45/burger"
-    },
-    {
-      link: "https://guarded-lowlands-48682.herokuapp.com/",
-      img: "assets/images/home.png",
-      text: "Friend Finder",
-      description: "Utilized  Turbo, Express, and Node.js",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/FriendFinder/blob/master/README.md"
-    },
-    {
-      link:
-        "https://github.com/jpimentel45/liri-node-app/blob/master/README.md",
-      img: "assets/images/liri.png",
-      text: "LIRI",
-      description: "Utilized  Node.js, OMBD API, Bandsintown API, Spotify API",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/liri-node-app/blob/master/README.md"
-    },
-
-    {
-      link: "https://jpimentel45.github.io/Giftastic/",
-      img: "assets/images/giphy.png",
-      text: "Giftastic",
-      description:
-        "Utilized Giphy Api to append gifs based on topics created by user",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/Giftastic"
-    },
-    {
-      link: "https://jpimentel45.github.io/TrainSchedule/train",
-      img: "assets/images/train.png",
-      text: "Train Schedule",
-      description: "Utilized firebase to store and append data to html",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/TrainSchedule"
-    },
-    {
-      link: "https://jpimentel45.github.io/TriviaGame/",
-      img: "assets/images/trivia.png",
-      text: "Trivia Game",
-      description: "Random trivia question with timer, and answer count",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/TriviaGame"
-    },
-    {
-      link: "https://jpimentel45.github.io/Tipsy/",
-      img: "assets/images/tip.png",
-      text: "Tip Calculator",
-      description:
-        "Simple tip calculator that takes in user value, returns tip amount and total bill including tip.",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/Tipsy"
-    },
-    {
-      link: "https://jpimentel45.github.io/jsVariables/",
-      img: "assets/images/jsVar.png",
-      text: "Dynamic CSS",
-      description: "Dynamically change CSS values based on input",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/jsVariables"
-    },
-    {
-      link: "https://jpimentel45.github.io/jsKeys/",
-      img: "assets/images/jsKeys.png",
-      text: "JS Keys",
-      description: "Dynamically play stored sounds based on key event.",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/jsKeys"
-    },
-    {
-      link: "https://github.com/jpimentel45/amazon",
-      img: "assets/images/amazon.png",
-      text: "Amazon",
-      description: "Amazon-like store front.",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/amazon"
-    },
-    {
-      link: "https://jpimentel45.github.io/Psychic_Game/",
-      img: "assets/images/psychic.png",
-      text: "Psychic Game",
-      description: "Simple guess game based on user keypress",
-      git: "Github",
-      hub: "https://github.com/jpimentel45/Psychic_Game"
     }
+    // {
+    //   link: "https://guarded-lowlands-48682.herokuapp.com/",
+    //   img: "assets/images/home.png",
+    //   text: "Friend Finder",
+    //   description: "Utilized  Turbo, Express, and Node.js",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/FriendFinder/blob/master/README.md"
+    // },
+    // {
+    //   link:
+    //     "https://github.com/jpimentel45/liri-node-app/blob/master/README.md",
+    //   img: "assets/images/liri.png",
+    //   text: "LIRI",
+    //   description: "Utilized  Node.js, OMBD API, Bandsintown API, Spotify API",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/liri-node-app/blob/master/README.md"
+    // },
+
+    // {
+    //   link: "https://jpimentel45.github.io/Giftastic/",
+    //   img: "assets/images/giphy.png",
+    //   text: "Giftastic",
+    //   description:
+    //     "Utilized Giphy Api to append gifs based on topics created by user",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/Giftastic"
+    // },
+    // {
+    //   link: "https://jpimentel45.github.io/TrainSchedule/train",
+    //   img: "assets/images/train.png",
+    //   text: "Train Schedule",
+    //   description: "Utilized firebase to store and append data to html",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/TrainSchedule"
+    // },
+    // {
+    //   link: "https://jpimentel45.github.io/TriviaGame/",
+    //   img: "assets/images/trivia.png",
+    //   text: "Trivia Game",
+    //   description: "Random trivia question with timer, and answer count",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/TriviaGame"
+    // },
+    // {
+    //   link: "https://jpimentel45.github.io/Tipsy/",
+    //   img: "assets/images/tip.png",
+    //   text: "Tip Calculator",
+    //   description:
+    //     "Simple tip calculator that takes in user value, returns tip amount and total bill including tip.",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/Tipsy"
+    // },
+    // {
+    //   link: "https://jpimentel45.github.io/jsVariables/",
+    //   img: "assets/images/jsVar.png",
+    //   text: "Dynamic CSS",
+    //   description: "Dynamically change CSS values based on input",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/jsVariables"
+    // },
+    // {
+    //   link: "https://jpimentel45.github.io/jsKeys/",
+    //   img: "assets/images/jsKeys.png",
+    //   text: "JS Keys",
+    //   description: "Dynamically play stored sounds based on key event.",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/jsKeys"
+    // },
+    // {
+    //   link: "https://github.com/jpimentel45/amazon",
+    //   img: "assets/images/amazon.png",
+    //   text: "Amazon",
+    //   description: "Amazon-like store front.",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/amazon"
+    // },
+    // {
+    //   link: "https://jpimentel45.github.io/Psychic_Game/",
+    //   img: "assets/images/psychic.png",
+    //   text: "Psychic Game",
+    //   description: "Simple guess game based on user keypress",
+    //   git: "Github",
+    //   hub: "https://github.com/jpimentel45/Psychic_Game"
+    // }
   ];
   var port = '<div class="wrapper">';
   $("#portfolio").html(port);
