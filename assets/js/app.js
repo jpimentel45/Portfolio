@@ -15,7 +15,7 @@ $(document).ready(function() {
   var projects = [
     {
       link: "https://safe-castle-74337.herokuapp.com/login#/",
-      img: "assets/images/eportal.png",
+      img: "assets/images/teaUser.png",
       text: "TeaSpots",
       description: "Utilized React-Redux, User Authentication, Front End & Back End Server, Heroku",
       git: "Github",
