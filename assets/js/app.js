@@ -17,7 +17,7 @@ $(document).ready(function() {
       link: "https://safe-castle-74337.herokuapp.com/login#/",
       img: "assets/images/teaUser.png",
       text: "TeaSpots",
-      description: "Utilized React-Redux, User Authentication, Front End & Back End Server, Heroku",
+      description: " Utilized: React-Redux, MVC Model, Mongo Atlas, User Authentication, Heroku Web Hosting Service",
       git: "Github",
       hub: "https://github.com/jpimentel45/reactTea"
     },
@@ -25,7 +25,7 @@ $(document).ready(function() {
       link: "https://morning-atoll-33943.herokuapp.com/signin",
       img: "assets/images/eportal.png",
       text: "ePortal",
-      description: "Utilized Sequelize, MVP model, User Authentication, Heroku",
+      description: "Utilized Sequelize, MVP model, User Authentication, Heroku Web Hosting Service",
       git: "Github",
       hub: "https://github.com/krekorian/Project2"
     },
@@ -239,7 +239,7 @@ $(document).ready(function() {
     },
     {
       link:
-        "https://drive.google.com/file/d/17lLlSAH1-MIGuDD_P4Cj2GmWbUFzMxUT/view?usp=sharing",
+        "https://docs.google.com/document/d/14VVbhMEZ_JHmCkSRLPLrCSudXzltWoK_NjKCNAFrSD0/edit?usp=sharing",
       id: "ressy"
     },
     {
