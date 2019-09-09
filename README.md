@@ -13,17 +13,8 @@ My portfolio has all been created on one HTML document, with a dropdown navbar, 
 
 ### Walk Through
 
-1. Nav bar is fixed to the top, as user scrolls
-2. Portfolio: user may tap to toggle container with description containing link to project, and to the GitHub repository
-3. User may also toggle the container on mouse leave
-4. Contact: contains buttons linked to:
-   *GitHub
-   *LinkedIn
-   *Resume
-   *Phone Number
-   \*Email
-   Portfolio Homepage:
-   ![Welcome page Screenshot](https://github.com/jpimentel45/Portfolio/blob/master/assets/images/port.png "Logo Title Text 1")
+1. [Access My New Portfolio](https://juanjr.herokuapp.com/) 
+
 
 ## Learned:
 
